@@ -81,8 +81,8 @@ SharePoint 2013 提供的 REST 界面使您可以通过特殊构建的 URL 访�
 
 |**运算符**||
 |:-----|:-----|
-|EQ  <br/> |等于  <br/> > **注释**> 当您使用 **EQ** 进行筛选时，筛选器条件就会传递到服务器上发生筛选的外部系统上。          |
-|GT  <br/> |大于  <br/> > **注释**> 当您使用 **GT** 运算符时，仅执行客户端筛选。> 例如： `web/lists/getByTitle('ListName')/Items?$select=Title&amp;$filter=AverageRating gt 3` 返回所有平均得分超过 3 的标题。          |
+|EQ  <br/> |等于  <br/> *注释* <br/> 当您使用 **EQ** 进行筛选时，筛选器条件就会传递到服务器上发生筛选的外部系统上。          |
+|GT  <br/> |大于  <br/> *注释* <br/> 当您使用 **GT** 运算符时，仅执行客户端筛选。 <br/> 例如： `web/lists/getByTitle('ListName')/Items?$select=Title&amp;$filter=AverageRating gt 3` 返回所有平均得分超过 3 的标题。          |
    
 
 > **注释**

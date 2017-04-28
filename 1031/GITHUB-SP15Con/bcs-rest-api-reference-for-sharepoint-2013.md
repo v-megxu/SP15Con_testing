@@ -81,8 +81,8 @@ Um die zurückgegebene Datenmenge beschränken oder mehr Stellen für den Benutz
 
 |**Operator**||
 |:-----|:-----|
-|eq <br/> |Gleich <br/> > **HINWEIS**> Wenn Sie **EQ** zum Filtern verwenden, werden die Filterkriterien an das externe System übergeben, in dem Fall die Filterung auf dem Server.          |
-|Gt <br/> |(größer als) <br/> > **HINWEIS**> Wenn Sie den Operator **GT** verwenden, wird nur clientseitige Filterung ausgeführt.> Beispiel:  `web/lists/getByTitle('ListName')/Items?$select=Title&amp;$filter=AverageRating gt 3` gibt alle Titel mit durchschnittlich Bewertung über 3 zurück.          |
+|eq <br/> |Gleich <br/> *HINWEIS* <br/> Wenn Sie **EQ** zum Filtern verwenden, werden die Filterkriterien an das externe System übergeben, in dem Fall die Filterung auf dem Server.          |
+|Gt <br/> |(größer als) <br/> *HINWEIS* <br/> Wenn Sie den Operator **GT** verwenden, wird nur clientseitige Filterung ausgeführt. <br/> Beispiel:  `web/lists/getByTitle('ListName')/Items?$select=Title&amp;$filter=AverageRating gt 3` gibt alle Titel mit durchschnittlich Bewertung über 3 zurück.          |
    
 
 > **HINWEIS**

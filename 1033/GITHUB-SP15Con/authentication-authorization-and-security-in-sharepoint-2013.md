@@ -69,7 +69,7 @@ SharePoint 2013 supports the following types of authentication:
     For information about signing in to SharePoint by using Windows claims mode, see  [Incoming claims: Signing into SharePoint 2013](incoming-claims-signing-into-sharepoint-2013.md).
     
     > **IMPORTANT**
-      >  For information about suspending impersonation, see [Avoid suspending impersonation of the calling user](http://msdn.microsoft.com/en-us/library/ff407852.aspx). 
+    >  For information about suspending impersonation, see [Avoid suspending impersonation of the calling user](http://msdn.microsoft.com/en-us/library/ff407852.aspx). 
 - **ASP.NET Forms:** A non-Windows identity management system that uses the pluggable ASP.NET forms-based authentication system is supported. This mode enables SharePoint 2013 to work with a variety of identity management systems, including externally defined groups or roles such as Lightweight Directory Access Protocol (LDAP) and light-weight database identity management systems. Forms authentication allows ASP.NET to perform the authentication for SharePoint 2013, often involving a redirect to a log-on page. In SharePoint 2013, ASP.NET forms are supported only under claims authentication. A forms provider must be registered within a web application that is configured for claims.
     
     For information about signing in to SharePoint by using ASP.NET membership and role passive sign-in, see  [Incoming claims: Signing into SharePoint 2013](incoming-claims-signing-into-sharepoint-2013.md).
