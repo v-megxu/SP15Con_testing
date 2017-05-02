@@ -69,7 +69,7 @@ SharePoint 2013 支持以下类型的身份验证：
     有关使用 Windows 声明模式登录到 SharePoint 的信息，请参阅 [传入声明：登录到 SharePoint 2013](incoming-claims-signing-into-sharepoint-2013.md)。
     
     > **重要信息**
-    >  有关挂起模拟的信息，请参阅 [避免挂起调用者模拟](http://msdn.microsoft.com/zh-cn/library/ff407852.aspx)。 
+      >  有关挂起模拟的信息，请参阅 [避免挂起调用者模拟](http://msdn.microsoft.com/zh-cn/library/ff407852.aspx)。 
 - **ASP.NET 表单：** 支持使用可插入的基于 ASP.NET 表单的身份验证系统的非 Windows 身份管理系统。此模式可让 SharePoint 2013 处理各种身份管理系统，包括外部定义的组或角色，如轻型目录访问协议 (LDAP) 和轻型数据库身份管理系统。表单身份验证可让 ASP.NET 为 SharePoint 2013 执行身份验证，通常涉及重定向到登录页。在 SharePoint 2013 中，ASP.NET 表单仅在声明身份验证下受到支持。必须在为声明配置的 Web 应用程序内注册表单提供程序。
     
     有关使用 ASP.NET 成员资格和角色被动登录来登录到 SharePoint 的信息，请参阅 [传入声明：登录到 SharePoint 2013](incoming-claims-signing-into-sharepoint-2013.md)。

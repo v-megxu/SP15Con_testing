@@ -42,7 +42,7 @@ ms.assetid: 96c32f08-ad93-49af-b8d0-9d194a48cc79
 
 ### 封装和部署
 
-封装、安装、更新和本地化服务器场解决方案 的基本原理在 [解决方案概述](http://msdn.microsoft.com/library/1983cab9-4b29-494a-a62a-0f8e83908744%28Office.15%29.aspx)和 [场解决方案](http://msdn.microsoft.com/library/845f7524-b9ff-412b-aa29-3afacda91100%28Office.15%29.aspx) 节点中有说明。有关开发特定 SharePoint 组件以便纳入服务器场解决方案中的内容在 SharePoint 2010 SDK 的相关节点中有说明。服务器场解决方案中的大多数组件应封装在一个或多个"SharePoint 功能"中。有关设计和创建"功能"的信息，请参阅 SharePoint 2010 SDK 的 [使用功能](http://msdn.microsoft.com/library/ce5f5ce5-1429-439e-9261-2c4ba9788cc1%28Office.15%29.aspx)节点。.
+封装、安装、更新和本地化服务器场解决方案 的基本原理在 [解决方案概述](http://msdn.microsoft.com/library/1983cab9-4b29-494a-a62a-0f8e83908744%28Office.15%29.aspx)和 [场解决方案](http://msdn.microsoft.com/library/845f7524-b9ff-412b-aa29-3afacda91100%28Office.15%29.aspx) 节点中有说明。有关开发特定 SharePoint 组件以便纳入服务器场解决方案中的内容在 SharePoint 2010 SDK 的相关节点中有说明。服务器场解决方案中的大多数组件应封装在一个或多个"SharePoint 功能"中。有关设计和创建"功能"的信息，请参阅 SharePoint 2010 SDK 的 [使用功能](http://msdn.microsoft.com/library/ce5f5ce5-1429-439e-9261-2c4ba9788cc1%28Office.15%29.aspx)节点。
   
     
     

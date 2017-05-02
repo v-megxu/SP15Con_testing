@@ -17,50 +17,50 @@ Eine Farbpalette stellt die Kombination der Farben dar, die in einer SharePoint-
 
 - **Farbpalettendatei (.spcolor)**
     
-    Farbpalettendateien werden im Assistenten **Aussehen ändern** verwendet, mit dem Benutzer das Erscheinungsbild ihrer Website mithilfe der SharePoint-Designbenutzeroberfläche ändern können. Mit SharePoint 2013 werden standardmäßig 32 Farbpalettendateien installiert. Sie können auch zusätzliche Farbpalettendateien erstellen. Das folgende Beispiel zeigt das Format einer Farbpalettendatei.
+Farbpalettendateien werden im Assistenten **Aussehen ändern** verwendet, mit dem Benutzer das Erscheinungsbild ihrer Website mithilfe der SharePoint-Designbenutzeroberfläche ändern können. Mit SharePoint 2013 werden standardmäßig 32 Farbpalettendateien installiert. Sie können auch zusätzliche Farbpalettendateien erstellen. Das folgende Beispiel zeigt das Format einer Farbpalettendatei.
     
 
 
-  ```XML
+    ```XML
   
 <s:colorPalette isInverted="InvertedSetting" previewSlot1="Slot1" previewSlot2="Slot2" previewSlot3="Slot3" xmlns:s="http://schemas.microsoft.com/sharepoint/">
     <s:color name="ColorSlot" value="Color" />
     <!--additional color slots-->
 </s:colorPalette>
-  ```
+    ```
 
 
-    In einer Farbpalettendatei werden die folgenden Platzhalter ersetzt:
+In einer Farbpalettendatei werden die folgenden Platzhalter ersetzt:
     
-  -  _InvertedSetting_ ist ein Boolescher Wert. **true**, wenn die Farbpalette in der Regel hellen Text vor dunklem Hintergrund umfasst. **false**, wenn die Farbpalette in der Regel dunklen Text vor hellem Hintergrund umfasst.
-    
-  
-  -  _Slot1_ ist der Anmerkungsname des Farbplatzes, der in der Farbpalettenauswahl der Designoberfläche als der erste Block des Palettensymbols verwendet werden soll.
+-  _InvertedSetting_ ist ein Boolescher Wert. **true**, wenn die Farbpalette in der Regel hellen Text vor dunklem Hintergrund umfasst. **false**, wenn die Farbpalette in der Regel dunklen Text vor hellem Hintergrund umfasst.
     
   
-  -  _Slot2_ ist der Anmerkungsname des Farbplatzes, der in der Farbpalettenauswahl der Designoberfläche als der zweite Block des Palettensymbols verwendet werden soll.
+-  _Slot1_ ist der Anmerkungsname des Farbplatzes, der in der Farbpalettenauswahl der Designoberfläche als der erste Block des Palettensymbols verwendet werden soll.
     
   
-  -  _Slot3_ ist der Anmerkungsname des Farbplatzes, der in der Farbpalettenauswahl der Designoberfläche als der dritte Block des Palettensymbols verwendet werden soll.
+-  _Slot2_ ist der Anmerkungsname des Farbplatzes, der in der Farbpalettenauswahl der Designoberfläche als der zweite Block des Palettensymbols verwendet werden soll.
     
   
-  -  _ColorSlot_ ist der Anmerkungsname des Farbplatzes, den Sie definieren (z. B. Websitetitel).
+-  _Slot3_ ist der Anmerkungsname des Farbplatzes, der in der Farbpalettenauswahl der Designoberfläche als der dritte Block des Palettensymbols verwendet werden soll.
     
   
-  -  _Color_ ist der Hexadezimalwert der Farbe, die für den angegebenen Farbplatz verwendet werden soll. Er kann sechsstellig (RRGGBB) oder achtstellig (AARRGGBB) sein. Wenn der Hexadezimalwert achtstellig ist, geben die ersten beiden Stellen die Transparenzstufe (00-FF, was 0-255 entspricht) an. Ist der Hexadezimalwert sechsstellig, ist der Standardtransparenzwert 100 % oder FF.
+-  _ColorSlot_ ist der Anmerkungsname des Farbplatzes, den Sie definieren (z. B. Websitetitel).
+    
+  
+-  _Color_ ist der Hexadezimalwert der Farbe, die für den angegebenen Farbplatz verwendet werden soll. Er kann sechsstellig (RRGGBB) oder achtstellig (AARRGGBB) sein. Wenn der Hexadezimalwert achtstellig ist, geben die ersten beiden Stellen die Transparenzstufe (00-FF, was 0-255 entspricht) an. Ist der Hexadezimalwert sechsstellig, ist der Standardtransparenzwert 100 % oder FF.
     
   
 
-    Die Farbpalettendateien sich im Designkatalog der Stammwebsite gespeichert, in der Websitesammlung im Ordner **15** (http:// _SiteCollectionName_/_catalogs/theme/15/). Um den Designkatalog über die Benutzerfläche von SharePoint aufzurufen, wählen Sie auf der Seite **Websiteeinstellungen** unter **Web-Designer-Kataloge** **Designs** und dann **15** aus.
+Die Farbpalettendateien sich im Designkatalog der Stammwebsite gespeichert, in der Websitesammlung im Ordner **15** (http:// _SiteCollectionName_/_catalogs/theme/15/). Um den Designkatalog über die Benutzerfläche von SharePoint aufzurufen, wählen Sie auf der Seite **Websiteeinstellungen** unter **Web-Designer-Kataloge** **Designs** und dann **15** aus.
     
   
 - **Vorschaudatei für Gestaltungsvorlagen (.preview)**
     
-    Vorschaudateien für Gestaltungsvorlagen werden verwendet, um bei Verwendung des Assistenten **Aussehen ändern** Miniatur- und Vorschaubilder zu generieren. Eine Gestaltungsvorlage muss eine entsprechende Vorschaudatei aufweisen, die im Assistenten **Aussehen ändern** verwendet wird. Eine Vorschaudatei stellt eine speziell formatierte Datei dar, die Abschnitte für die Standardfarbpalette, das Standardschriftartenschema, Token-CSS und Token-HTML enthält. Sie verwendet Zeichenfolgetoken, um den Wert von Farbplätzen, Schriftartnamen und lokalisierten UI-Zeichenfolgen abzurufen. Das folgende Beispiel zeigt Farbplätze, die in der Vorschaudatei für Gestaltungsvorlagen verwendet werden.
+Vorschaudateien für Gestaltungsvorlagen werden verwendet, um bei Verwendung des Assistenten **Aussehen ändern** Miniatur- und Vorschaubilder zu generieren. Eine Gestaltungsvorlage muss eine entsprechende Vorschaudatei aufweisen, die im Assistenten **Aussehen ändern** verwendet wird. Eine Vorschaudatei stellt eine speziell formatierte Datei dar, die Abschnitte für die Standardfarbpalette, das Standardschriftartenschema, Token-CSS und Token-HTML enthält. Sie verwendet Zeichenfolgetoken, um den Wert von Farbplätzen, Schriftartnamen und lokalisierten UI-Zeichenfolgen abzurufen. Das folgende Beispiel zeigt Farbplätze, die in der Vorschaudatei für Gestaltungsvorlagen verwendet werden.
     
 
 
-  ```HTML
+    ```HTML
   
 [ID] #dgp-pageContainer
 {
@@ -72,10 +72,10 @@ Eine Farbpalette stellt die Kombination der Farben dar, die in einer SharePoint-
     background-size: cover;
     font-family: [T_BODY_FONT];   
 }
-  ```
+    ```
 
 
-    Weitere Informationen finden Sie unter  [Gewusst wie: Erstellen einer Gestaltungsvorlagen-Vorschaudatei in SharePoint 2013](how-to-create-a-master-page-preview-file-in-sharepoint-2013.md)
+Weitere Informationen finden Sie unter  [Gewusst wie: Erstellen einer Gestaltungsvorlagen-Vorschaudatei in SharePoint 2013](how-to-create-a-master-page-preview-file-in-sharepoint-2013.md)
     
   
 

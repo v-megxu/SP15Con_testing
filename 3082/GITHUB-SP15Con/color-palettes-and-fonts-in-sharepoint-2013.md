@@ -17,50 +17,50 @@ Una paleta de colores es la combinación de colores que se utiliza en un sitio d
 
 - **Archivo de paleta de colores (.spcolor)**
     
-    Los archivos de paleta de colores se usan en el asistente **Cambiar la apariencia**, que permite a los usuarios cambiar el aspecto de su sitio mediante la interfaz de usuario de temas de SharePoint. En SharePoint 2013 hay instaladas 32 paletas de colores de forma predeterminada. También se pueden crear archivos de paleta de colores adicionales. En el siguiente ejemplo se muestra el formato de un archivo de paleta de colores.
+Los archivos de paleta de colores se usan en el asistente **Cambiar la apariencia**, que permite a los usuarios cambiar el aspecto de su sitio mediante la interfaz de usuario de temas de SharePoint. En SharePoint 2013 hay instaladas 32 paletas de colores de forma predeterminada. También se pueden crear archivos de paleta de colores adicionales. En el siguiente ejemplo se muestra el formato de un archivo de paleta de colores.
     
 
 
-  ```XML
+    ```XML
   
-<s:colorPalette isInverted="InvertedSetting" previewSlot1="Slot1" previewSlot2="Slot2" previewSlot3="Slot3" xmlns:s="http://schemas.microsoft.com/sharepoint/">
+    <s:colorPalette isInverted="InvertedSetting" previewSlot1="Slot1" previewSlot2="Slot2" previewSlot3="Slot3" xmlns:s="http://schemas.microsoft.com/sharepoint/">
     <s:color name="ColorSlot" value="Color" />
     <!--additional color slots-->
-</s:colorPalette>
-  ```
+    </s:colorPalette>
+    ```
 
 
-    En un archivo de paleta de colores, se sustituyen los siguientes marcadores de posición:
+En un archivo de paleta de colores, se sustituyen los siguientes marcadores de posición:
     
-  -  _InvertedSetting_ es un valor booleano. Suele ser **true** si la paleta de colores es texto claro sobre un fondo oscuro. Suele ser **false** si la paleta de colores es texto oscuro sobre un fondo claro.
-    
-  
-  -  _Slot1_ es el nombre de la anotación de la ranura de color que se va a usar como primer bloque del icono de la paleta en el selector de la paleta de colores de la experiencia de creación de temas.
+-  _InvertedSetting_ es un valor booleano. Suele ser **true** si la paleta de colores es texto claro sobre un fondo oscuro. Suele ser **false** si la paleta de colores es texto oscuro sobre un fondo claro.
     
   
-  -  _Slot2_ es el nombre de la anotación de la ranura de color que se va a usar como segundo bloque del icono de la paleta en el selector de la paleta de colores de la experiencia de creación de temas.
+-  _Slot1_ es el nombre de la anotación de la ranura de color que se va a usar como primer bloque del icono de la paleta en el selector de la paleta de colores de la experiencia de creación de temas.
     
   
-  -  _Slot3_ es el nombre de la anotación de la ranura de color que se va a usar como tercer bloque del icono de la paleta en el selector de la paleta de colores de la experiencia de creación de temas.
+-  _Slot2_ es el nombre de la anotación de la ranura de color que se va a usar como segundo bloque del icono de la paleta en el selector de la paleta de colores de la experiencia de creación de temas.
     
   
-  -  _ColorSlot_ es el nombre de la anotación de la ranura de color que se está definiendo (por ejemplo, SiteTitle).
+-  _Slot3_ es el nombre de la anotación de la ranura de color que se va a usar como tercer bloque del icono de la paleta en el selector de la paleta de colores de la experiencia de creación de temas.
     
   
-  -  _Color_ es el valor hexadecimal del color que se va a usar para la ranura de color especificada. Puede ser de 6 dígitos (RRGGBB) o de 8 (AARRGGBB). Si el valor hexadecimal es de 8 dígitos, los dos primeros representan el nivel de opacidad (00-FF, que se asigna a 0-255). Si el valor hexadecimal es de 6 dígitos, la opacidad predeterminada es 100 % o FF.
+-  _ColorSlot_ es el nombre de la anotación de la ranura de color que se está definiendo (por ejemplo, SiteTitle).
+    
+  
+-  _Color_ es el valor hexadecimal del color que se va a usar para la ranura de color especificada. Puede ser de 6 dígitos (RRGGBB) o de 8 (AARRGGBB). Si el valor hexadecimal es de 8 dígitos, los dos primeros representan el nivel de opacidad (00-FF, que se asigna a 0-255). Si el valor hexadecimal es de 6 dígitos, la opacidad predeterminada es 100 % o FF.
     
   
 
-    Los archivos de paleta de colores se encuentran en la Galería de temas del sitio raíz, en la colección de sitios de la carpeta **15** (http:// _NombreDeLaColecciónDeSitios_/_catalogs/theme/15/). Para obtener acceso a la Galería de temas desde la interfaz de usuario de SharePoint, en la página **Configuración del sitio**, en **Galerías del diseñador web**, seleccione **Temas** y luego **15**.
+Los archivos de paleta de colores se encuentran en la Galería de temas del sitio raíz, en la colección de sitios de la carpeta **15** (http:// _NombreDeLaColecciónDeSitios_/_catalogs/theme/15/). Para obtener acceso a la Galería de temas desde la interfaz de usuario de SharePoint, en la página **Configuración del sitio**, en **Galerías del diseñador web**, seleccione **Temas** y luego **15**.
     
   
 - **Archivo de vista previa de página maestra (.preview)**
     
-    Los archivos de vista previa de página maestra se usan para generar imágenes en miniatura y de vista previa cuando se emplea el asistente **Cambiar la apariencia**. Una página maestra debe tener un archivo de vista previa correspondiente para su empleo en el asistente **Cambiar la apariencia**. Un archivo de vista previa es un archivo con un formato especial que tiene secciones para la paleta de colores predeterminada, la combinación de fuentes predeterminada, el CSS con tokens y el HTML con tokens. Utiliza tokens de cadena para obtener el valor de las ranuras de color, los nombres de fuente y las cadenas localizadas de la IU. En el siguiente ejemplo se muestran las ranuras de color que se usan en el archivo de vista previa de página maestra.
+Los archivos de vista previa de página maestra se usan para generar imágenes en miniatura y de vista previa cuando se emplea el asistente **Cambiar la apariencia**. Una página maestra debe tener un archivo de vista previa correspondiente para su empleo en el asistente **Cambiar la apariencia**. Un archivo de vista previa es un archivo con un formato especial que tiene secciones para la paleta de colores predeterminada, la combinación de fuentes predeterminada, el CSS con tokens y el HTML con tokens. Utiliza tokens de cadena para obtener el valor de las ranuras de color, los nombres de fuente y las cadenas localizadas de la IU. En el siguiente ejemplo se muestran las ranuras de color que se usan en el archivo de vista previa de página maestra.
     
 
 
-  ```HTML
+    ```HTML
   
 [ID] #dgp-pageContainer
 {
@@ -72,10 +72,10 @@ Una paleta de colores es la combinación de colores que se utiliza en un sitio d
     background-size: cover;
     font-family: [T_BODY_FONT];   
 }
-  ```
+    ```
 
 
-    Para obtener más información, consulte  [Cómo: crear un archivo de vista previa de página maestra en SharePoint 2013](how-to-create-a-master-page-preview-file-in-sharepoint-2013.md)
+Para obtener más información, consulte  [Cómo: crear un archivo de vista previa de página maestra en SharePoint 2013](how-to-create-a-master-page-preview-file-in-sharepoint-2013.md)
     
   
 

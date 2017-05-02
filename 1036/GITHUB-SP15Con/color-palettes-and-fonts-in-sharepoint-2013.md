@@ -17,50 +17,50 @@ Une palette de couleurs représente la combinaison de couleurs qui sont utilisé
 
 - **Fichier de palette de couleurs (.spcolor)**
     
-    Les fichiers de palette de couleurs sont utilisés dans l'Assistant **Modifier l'apparence**. Ce dernier permet aux utilisateurs de changer l'apparence de leur site à l'aide de l'interface utilisateur des thèmes SharePoint. Par défaut, 32 fichiers de palette de couleurs sont installés avec SharePoint 2013. Vous pouvez également créer des fichiers de palette de couleurs supplémentaires. L'exemple suivant illustre le format d'un fichier de palette de couleurs.
+Les fichiers de palette de couleurs sont utilisés dans l'Assistant **Modifier l'apparence**. Ce dernier permet aux utilisateurs de changer l'apparence de leur site à l'aide de l'interface utilisateur des thèmes SharePoint. Par défaut, 32 fichiers de palette de couleurs sont installés avec SharePoint 2013. Vous pouvez également créer des fichiers de palette de couleurs supplémentaires. L'exemple suivant illustre le format d'un fichier de palette de couleurs.
     
 
 
-  ```XML
+    ```XML
   
-<s:colorPalette isInverted="InvertedSetting" previewSlot1="Slot1" previewSlot2="Slot2" previewSlot3="Slot3" xmlns:s="http://schemas.microsoft.com/sharepoint/">
+    <s:colorPalette isInverted="InvertedSetting" previewSlot1="Slot1" previewSlot2="Slot2" previewSlot3="Slot3" xmlns:s="http://schemas.microsoft.com/sharepoint/">
     <s:color name="ColorSlot" value="Color" />
     <!--additional color slots-->
-</s:colorPalette>
-  ```
+    </s:colorPalette>
+    ```
 
 
-    Dans un fichier de palette de couleurs, les espaces réservés suivants sont remplacés :
+Dans un fichier de palette de couleurs, les espaces réservés suivants sont remplacés :
     
-  -  _InvertedSetting_ est une valeur booléenne. Elle indique **true** si la palette de couleurs définit un texte plutôt clair sur un arrière-plan sombre, **false** si la palette de couleurs définit un texte plutôt foncé sur un fond clair.
-    
-  
-  -  _Slot1_ est le nom de l'annotation de l'emplacement de couleur à utiliser comme premier bloc de l'icône de palette dans le sélecteur de couleurs de la palette lors de la création d'un thème.
+-  _InvertedSetting_ est une valeur booléenne. Elle indique **true** si la palette de couleurs définit un texte plutôt clair sur un arrière-plan sombre, **false** si la palette de couleurs définit un texte plutôt foncé sur un fond clair.
     
   
-  -  _Slot2_ est le nom de l'annotation de l'emplacement de couleur à utiliser comme deuxième bloc de l'icône de palette dans le sélecteur de couleurs de la palette lors de la création d'un thème.
+-  _Slot1_ est le nom de l'annotation de l'emplacement de couleur à utiliser comme premier bloc de l'icône de palette dans le sélecteur de couleurs de la palette lors de la création d'un thème.
     
   
-  -  _Slot3_ est le nom de l'annotation de l'emplacement de couleur à utiliser comme troisième bloc de l'icône de palette dans le sélecteur de couleurs de la palette lors de la création d'un thème.
+-  _Slot2_ est le nom de l'annotation de l'emplacement de couleur à utiliser comme deuxième bloc de l'icône de palette dans le sélecteur de couleurs de la palette lors de la création d'un thème.
     
   
-  -  _ColorSlot_ est le nom de l'annotation de l'emplacement de couleur que vous définissez (par exemple, SiteTitle).
+-  _Slot3_ est le nom de l'annotation de l'emplacement de couleur à utiliser comme troisième bloc de l'icône de palette dans le sélecteur de couleurs de la palette lors de la création d'un thème.
     
   
-  -  _Color_ est la valeur hexadécimale de la couleur à utiliser pour l'emplacement de couleur spécifié. Celle-ci peut être composée de 6 chiffres (RRVVBB) ou de 8 chiffres (AARRVVBB). Si la valeur hexadécimale est composée de 8 chiffres, les deux premiers représentent le niveau d'opacité (00-FF correspond à 0-255). Si la valeur hexadécimale est composée de 6 chiffres, l'opacité par défaut est de 100 % ou FF.
+-  _ColorSlot_ est le nom de l'annotation de l'emplacement de couleur que vous définissez (par exemple, SiteTitle).
+    
+  
+-  _Color_ est la valeur hexadécimale de la couleur à utiliser pour l'emplacement de couleur spécifié. Celle-ci peut être composée de 6 chiffres (RRVVBB) ou de 8 chiffres (AARRVVBB). Si la valeur hexadécimale est composée de 8 chiffres, les deux premiers représentent le niveau d'opacité (00-FF correspond à 0-255). Si la valeur hexadécimale est composée de 6 chiffres, l'opacité par défaut est de 100 % ou FF.
     
   
 
-    Les fichiers de palette de couleurs sont situés dans la galerie de thèmes du site racine, dans le dossier **15** de la collection de sites (http:// _ SiteCollectionName_ /_catalogs/theme/15 /). Pour accéder à la galerie de thèmes à partir de l'interface utilisateur de SharePoint, ouvrez la page **Paramètres du site**, puis, sous **Galeries du concepteur web**, sélectionnez **Thèmes**, puis **15**.
+Les fichiers de palette de couleurs sont situés dans la galerie de thèmes du site racine, dans le dossier **15** de la collection de sites (http:// _ SiteCollectionName_ /_catalogs/theme/15 /). Pour accéder à la galerie de thèmes à partir de l'interface utilisateur de SharePoint, ouvrez la page **Paramètres du site**, puis, sous **Galeries du concepteur web**, sélectionnez **Thèmes**, puis **15**.
     
   
 - **Fichier d'aperçu de la page maître (.preview)**
     
-    Les fichiers d'aperçu de la page maître permettent de générer des images miniatures et de prévisualiser les images lorsque vous utilisez l'Assistant **Modifier l'apparence**. Pour pouvoir être utilisée dans l'Assistant **Modifier l'apparence**, une page maître doit être associée à un fichier d'aperçu. Un fichier d'aperçu est un fichier au format spécial qui présente des sections définissant la palette de couleurs par défaut, le jeu de polices par défaut, les fichiers CSS tokenisés et les fichiers HTML tokenisés. Il utilise les jetons de chaîne pour obtenir la valeur des emplacements de couleur, des noms de police et des chaînes d'interface utilisateur localisées. L'exemple suivant présente les emplacements de couleur utilisés dans le fichier d'aperçu de la page maître.
+Les fichiers d'aperçu de la page maître permettent de générer des images miniatures et de prévisualiser les images lorsque vous utilisez l'Assistant **Modifier l'apparence**. Pour pouvoir être utilisée dans l'Assistant **Modifier l'apparence**, une page maître doit être associée à un fichier d'aperçu. Un fichier d'aperçu est un fichier au format spécial qui présente des sections définissant la palette de couleurs par défaut, le jeu de polices par défaut, les fichiers CSS tokenisés et les fichiers HTML tokenisés. Il utilise les jetons de chaîne pour obtenir la valeur des emplacements de couleur, des noms de police et des chaînes d'interface utilisateur localisées. L'exemple suivant présente les emplacements de couleur utilisés dans le fichier d'aperçu de la page maître.
     
 
 
-  ```HTML
+    ```HTML
   
 [ID] #dgp-pageContainer
 {
@@ -72,10 +72,10 @@ Une palette de couleurs représente la combinaison de couleurs qui sont utilisé
     background-size: cover;
     font-family: [T_BODY_FONT];   
 }
-  ```
+    ```
 
 
-    Pour plus d'informations, voir  [Comment créer un fichier d'aperçu de page maître dans SharePoint 2013](how-to-create-a-master-page-preview-file-in-sharepoint-2013.md).
+Pour plus d'informations, voir  [Comment créer un fichier d'aperçu de page maître dans SharePoint 2013](how-to-create-a-master-page-preview-file-in-sharepoint-2013.md).
     
   
 

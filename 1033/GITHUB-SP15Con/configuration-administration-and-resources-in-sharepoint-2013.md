@@ -72,6 +72,7 @@ The following are links to some of the documentation and guidelines on TechNet:
     
 
 The following tables list blogs, forums, and additional resources about claims-based identity and general security in SharePoint Server.
+
 **Table 1. Blogs**
 
 

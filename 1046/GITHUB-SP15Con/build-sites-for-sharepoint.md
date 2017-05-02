@@ -10,7 +10,7 @@ Saiba mas sobre o novo modelo de criação e de publicação para sites no Share
 ## Introdução à publicação de sites para designers e desenvolvedores no SharePoint
 <a name="SP15_BuildSitesForSP2013_IntroToSitePublishing"> </a>
 
-O SharePoint 2013 introduz um modelo de criação e de publicação para criar sites de publicação. Você pode usar sites de publicação para publicar conteúdo na intranet ou em sites da Internet. Os sites de publicação são diferentes de outros tipos de sites do SharePoint, como sites de equipe, principalmente devido à sua finalidade  vários usuários leem conteúdo do site de publicação, mas somente alguns contribuem adicionando, atualizando e excluindo conteúdo de um ou mais conjuntos de sites. Compare esses sites a sites de equipe, onde várias pessoas podem colaborar e contribuir para o conteúdo.
+O SharePoint 2013 introduz um modelo de criação e de publicação para criar sites de publicação. Você pode usar sites de publicação para publicar conteúdo na intranet ou em sites da Internet. Os sites de publicação são diferentes de outros tipos de sites do SharePoint, como sites de equipe, principalmente devido à sua finalidade - vários usuários leem conteúdo do site de publicação, mas somente alguns contribuem adicionando, atualizando e excluindo conteúdo de um ou mais conjuntos de sites. Compare esses sites a sites de equipe, onde várias pessoas podem colaborar e contribuir para o conteúdo.
   
     
     
@@ -25,13 +25,13 @@ Você pode usar os recursos de publicação de sites do SharePoint 2013 para cri
 - **Branding** e design da aparência e do comportamento do seu site.
     
   
-- **Managing metadata**  você pode criar um sistema de navegação de sites orientado a taxonomia.
+- **Managing metadata** - você pode criar um sistema de navegação de sites orientado a taxonomia.
     
   
-- O conteúdo de **Publishing** suave no conjunto de sites atual ou o conteúdo de publicação em conjuntos de sites  mesmo se estendendo além dos limites do site da intranet e da Internet.
+- O conteúdo de **Publishing** suave no conjunto de sites atual ou o conteúdo de publicação em conjuntos de sites - mesmo se estendendo além dos limites do site da intranet e da Internet.
     
   
-- **Accessibility**  você pode usar para melhorar a acessibilidade dos seus sites publicados.
+- **Accessibility** - você pode usar para melhorar a acessibilidade dos seus sites publicados.
     
   
 Se você quiser ver um resumo das novidades para designers e desenvolvedores de sites de publicação no SharePoint 2013, confira  [Novidades no desenvolvimento de site do SharePoint 2013](what-s-new-with-sharepoint-2013-site-development.md).
@@ -46,7 +46,7 @@ O SharePoint 2013 oferece uma nova abordagem para o design de sites. O fluxo de 
   
     
     
-O SharePoint 2013 também oferece uma nova abordagem para conteúdo e criação. O fluxo de trabalho de criação de conteúdo foi revisado de forma que você possa criar conteúdo usando qualquer ferramenta de criação e de identidade visual e criar um ótimo conteúdo. Para dar uma identidade visual a seu site sem precisar escrever código .NET personalizado, use o Gerenciador de Design. Você pode importar elementos de design e criar uma página mestra baseada em HTML para definir os elementos de quadros compartilhados  o cromado  que todas as páginas e layouts de página do seu site compartilham. Se você optar por escrever código personalizado ao criar a identidade visual do seu site, poderá usar bibliotecas de publicação e de taxonomia.
+O SharePoint 2013 também oferece uma nova abordagem para conteúdo e criação. O fluxo de trabalho de criação de conteúdo foi revisado de forma que você possa criar conteúdo usando qualquer ferramenta de criação e de identidade visual e criar um ótimo conteúdo. Para dar uma identidade visual a seu site sem precisar escrever código .NET personalizado, use o Gerenciador de Design. Você pode importar elementos de design e criar uma página mestra baseada em HTML para definir os elementos de quadros compartilhados - o cromado - que todas as páginas e layouts de página do seu site compartilham. Se você optar por escrever código personalizado ao criar a identidade visual do seu site, poderá usar bibliotecas de publicação e de taxonomia.
   
     
     
@@ -54,7 +54,7 @@ O SharePoint 2013 também oferece uma nova abordagem para conteúdo e criação.
 ## Sites de publicação, programação do modelo de objeto cliente e o novo modelo de aplicativo do SharePoint
 <a name="SP15_BuildSitesForSP2013_PublishingSites"> </a>
 
-Você pode usar o novo modelo de objeto de cliente .NET (CSOM) para desenvolver aplicativos do SharePoint com o modelo de Suplementos do SharePoint. Você pode usar várias das APIs que também estão disponíveis para programação de servidor .NET nos modelos de objeto cliente do .NET, que dão suporte ao desenvolvimento de cliente .NET, Silverlight, JavaScript  e, em alguns casos, do Windows Phone. Algumas ideias para o desenvolvimento de aplicativos para sites incluem pesquisas, aplicativos de gerenciamento de contas, suporte a eCommerce, integração de recursos sociais e de dados externos a sites de publicação, adições de conteúdo terceirizado e aplicativos associados móveis.
+Você pode usar o novo modelo de objeto de cliente .NET (CSOM) para desenvolver aplicativos do SharePoint com o modelo de Suplementos do SharePoint. Você pode usar várias das APIs que também estão disponíveis para programação de servidor .NET nos modelos de objeto cliente do .NET, que dão suporte ao desenvolvimento de cliente .NET, Silverlight, JavaScript - e, em alguns casos, do Windows Phone. Algumas ideias para o desenvolvimento de aplicativos para sites incluem pesquisas, aplicativos de gerenciamento de contas, suporte a eCommerce, integração de recursos sociais e de dados externos a sites de publicação, adições de conteúdo terceirizado e aplicativos associados móveis.
   
     
     
@@ -70,7 +70,7 @@ O SharePoint 2013 inclui um modelo de página para sites de publicação. O mode
 ## Páginas mestras e layouts de página
 <a name="SP15_BuildSitesForSP2013_MasterAndLayout"> </a>
 
-Uma página mestra é o principal modelo que define os elementos estruturais compartilhados do seu site  o cromado. Todas as páginas do site compartilham esses elementos, que definem as regiões da página que exibe o conteúdo de layout da página.
+Uma página mestra é o principal modelo que define os elementos estruturais compartilhados do seu site - o cromado. Todas as páginas do site compartilham esses elementos, que definem as regiões da página que exibe o conteúdo de layout da página.
   
     
     
@@ -98,7 +98,7 @@ Os sites de publicação no SharePoint 2013 são otimizados para desenvolvimento
 ## Metadados e navegação no SharePoint
 <a name="SP15_BuildSitesForSP2013_MetadataNav"> </a>
 
-Os recursos de metadados introduzidos no Microsoft SharePoint Server 2010 são aprimorados e estendidos no SharePoint 2013 para melhor desempenho, acesso mais fácil por meio da interface do usuário e navegação orientada a taxonomia  chamada de navegação gerenciada. Você pode usar a navegação gerenciada ou a navegação baseada na estrutura de site do SharePoint  chamada de navegação estruturada  para criar a navegação do seu site. Para saber mais sobre a navegação gerenciada, consulte [Metadados gerenciados e navegação no SharePoint 2013](managed-metadata-and-navigation-in-sharepoint-2013.md) e [Navegação gerenciada no SharePoint 2013](managed-navigation-in-sharepoint-2013.md).
+Os recursos de metadados introduzidos no Microsoft SharePoint Server 2010 são aprimorados e estendidos no SharePoint 2013 para melhor desempenho, acesso mais fácil por meio da interface do usuário e navegação orientada a taxonomia - chamada de navegação gerenciada. Você pode usar a navegação gerenciada ou a navegação baseada na estrutura de site do SharePoint - chamada de navegação estruturada - para criar a navegação do seu site. Para saber mais sobre a navegação gerenciada, consulte [Metadados gerenciados e navegação no SharePoint 2013](managed-metadata-and-navigation-in-sharepoint-2013.md) e [Navegação gerenciada no SharePoint 2013](managed-navigation-in-sharepoint-2013.md).
   
     
     
@@ -120,7 +120,7 @@ O SharePoint 2013 introduz catálogos, que você pode usar para publicar conteú
 
 ### Publicação entre sites
 
-O SharePoint 2013 introduz um recurso de publicação entre sites para reutilizar conteúdo em vários conjuntos de sites. Ele usa recursos de pesquisa internos para habilitar cenários e arquiteturas de publicação. Pela primeira vez, você pode projetar sites entre farms do SharePoint  permitindo que seus sites se estendam para além dos limites entre intranets e a Internet. É possível usar o CSWP para exibir dados de da pesquisa publicados entre sites e conjuntos de sites.
+O SharePoint 2013 introduz um recurso de publicação entre sites para reutilizar conteúdo em vários conjuntos de sites. Ele usa recursos de pesquisa internos para habilitar cenários e arquiteturas de publicação. Pela primeira vez, você pode projetar sites entre farms do SharePoint - permitindo que seus sites se estendam para além dos limites entre intranets e a Internet. É possível usar o CSWP para exibir dados de da pesquisa publicados entre sites e conjuntos de sites.
   
     
     

@@ -242,8 +242,8 @@ Nun sind wir bereit, den Workflow selbst zu erstellen.
   
 
     
-    > **HINWEIS**
-      > Sie können den Workflowzuordnungstyp nach Erstellen des Workflows im Eigenschaftenraster ändern, während der Workflow im **Projektmappen-Explorer** ausgewählt ist (siehe Abbildung 9). Klicken Sie dann auf **Fertig stellen**. 
+> **HINWEIS**
+> Sie können den Workflowzuordnungstyp nach Erstellen des Workflows im Eigenschaftenraster ändern, während der Workflow im **Projektmappen-Explorer** ausgewählt ist (siehe Abbildung 9). Klicken Sie dann auf **Fertig stellen**. 
 
    **Abbildung 9. Das Eigenschaftsraster des Workflows**
 
@@ -395,7 +395,7 @@ Nachdem wir unseren SharePoint Server eingerichtet und den grundlegenden Workflo
 ![Umwandeln der Variablen "Approver" in den Datentyp "String"](images/ngGK_Fig16.png)
   
 
-    Zum gegenwärtigen Zeitpunkt in dieser exemplarischen Vorgehensweise haben Sie eine Workflowaufgabe erstellt und konfiguriert, die zwei Dinge umfasst: es wird ein zu überprüfendes Dokument festgelegt und eine E-Mail an den mit der Aufgabe Beauftragten (in diesem Fall "Genehmigende Person") gesendet, dass eine Aufgabe zugewiesen wurde und Aktionen erwartet werden.
+Zum gegenwärtigen Zeitpunkt in dieser exemplarischen Vorgehensweise haben Sie eine Workflowaufgabe erstellt und konfiguriert, die zwei Dinge umfasst: es wird ein zu überprüfendes Dokument festgelegt und eine E-Mail an den mit der Aufgabe Beauftragten (in diesem Fall "Genehmigende Person") gesendet, dass eine Aufgabe zugewiesen wurde und Aktionen erwartet werden.
     
   
 7. Sehen wir uns das Eigenschaftenraster für die **SingleTask**-Aktivität an. Führen Sie einen Bildlauf zum Ende des Eigenschaftenrasters durch, und beachten Sie, dass der Abschnitt **Ausgabe** zwei Eigenschaften **Outcome** und **TaskItemId** enthält, die Ausgabeargumente sind.
@@ -448,7 +448,7 @@ Nachdem wir unseren SharePoint Server eingerichtet und den grundlegenden Workflo
 ![Hinzufügen einer "CopyItem"-Aktivität zum Workflow](images/ngGK_Fig19.png)
   
 
-    Konfigurieren Sie dann die Eigenschaften der **CopyItem**-Aktivität im Eigenschaftenraster, wie in Abbildung 20 dargestellt. Eigenschaftswerte sind hervorgehoben.
+Konfigurieren Sie dann die Eigenschaften der **CopyItem**-Aktivität im Eigenschaftenraster, wie in Abbildung 20 dargestellt. Eigenschaftswerte sind hervorgehoben.
     
 
    **Abbildung 20. Konfigurieren der "CopyItem"-Aktivität**
@@ -459,8 +459,9 @@ Nachdem wir unseren SharePoint Server eingerichtet und den grundlegenden Workflo
   
 
     
-    > **HINWEIS**
-      > Für diese exemplarische Vorgehensweise werden wir davon ausgehen, dass alle unsere veröffentlichten Dokumente aus der Bibliothek **Entwurfsdokumente** stammen. Daher müssen wir uns nicht um doppelte Dateinamen kümmern.
+> **HINWEIS**
+> Für diese exemplarische Vorgehensweise werden wir davon ausgehen, dass alle unsere veröffentlichten Dokumente aus der Bibliothek **Entwurfsdokumente** stammen. Daher müssen wir uns nicht um doppelte Dateinamen kümmern.
+
 11. Schließlich müssen wir eine Aktivität hinzufügen, um den Fall zu behandeln, dass der Prüfer das Dokument ablehnt. Dazu fügen wir eine **UpdateListItem**-Aktivität im **Else**-Bereich der aktuellen **If**-Aktivität hinzu. Konfigurieren Sie diese **UpdateListItem**-Aktivität genau so wie die vorherige in Schritt 9(c), allerdings legen wir den Dokumentstatus jetzt auf "Abgelehnt" fest, wie in Abbildung 21 dargestellt.
     
    **Abbildung 21. Konfigurieren von Eigenschaften der "UpdateListItem"-Aktivität für abgelehnte Dokumente**

@@ -242,8 +242,8 @@ Now we're ready to create the workflow itself.
   
 
     
-    > **NOTE**
-      > You can change the workflow association type after the workflow has been created by using the property grid with the workflow selected in **Solution Explorer** (see Figure 9). Then click **Finish**. 
+> **NOTE**
+> You can change the workflow association type after the workflow has been created by using the property grid with the workflow selected in **Solution Explorer** (see Figure 9). Then click **Finish**. 
 
    **Figure 9. The workflow property grid.**
 
@@ -395,7 +395,7 @@ Now that we have our SharePoint Server set up and our basic workflow created, we
 ![Cast the "Approver" variable to string data type](images/ngGK_Fig16.png)
   
 
-    At the present point in this walkthrough you have created and configured a workflow task that does two things: It sets a document to be reviewed, but also sends an email to the task assignee (the "Approver" in this case) notifying him or her that a task has been assigned and is waiting for actions.
+At the present point in this walkthrough you have created and configured a workflow task that does two things: It sets a document to be reviewed, but also sends an email to the task assignee (the "Approver" in this case) notifying him or her that a task has been assigned and is waiting for actions.
     
   
 7. Let's look at the property grid for the **SingleTask** activity. Scroll to the bottom of the property grid and note in the **Output** section there are two properties, **Outcome** and **TaskItemId**, which are out-arguments.
@@ -448,7 +448,7 @@ Now that we have our SharePoint Server set up and our basic workflow created, we
 ![Adding a CopyItem activity to the workflow](images/ngGK_Fig19.png)
   
 
-    Then, configure properties of the **CopyItem** activity in the property grid as depicted in Figure 20. Property values are highlighted.
+Then, configure properties of the **CopyItem** activity in the property grid as depicted in Figure 20. Property values are highlighted.
     
 
    **Figure 20. Configuring the CopyItem activity.**
@@ -459,8 +459,9 @@ Now that we have our SharePoint Server set up and our basic workflow created, we
   
 
     
-    > **NOTE**
-      > For the purpose of this walkthrough we are going to assume that all of our published documents come out of the Draft Documents library; therefore, we do not need to worry about controlling for duplicate file names. 
+> **NOTE**
+> For the purpose of this walkthrough we are going to assume that all of our published documents come out of the Draft Documents library; therefore, we do not need to worry about controlling for duplicate file names. 
+
 11. Finally, we need to add an activity to handle the case where the reviewer rejects the document. We do this by adding an **UpdateListItem** activity to the **Else** area of our current **If** activity. Configure this **UpdateListItem** activity just as you did the prior one in step 9(c), except that now we want to set the document status to "Rejected," as shown in Figure 21.
     
    **Figure 21. Configuring properties of UpdateListItem activity for rejected documents.**

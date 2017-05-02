@@ -8,6 +8,7 @@ ms.assetid: f36645da-77c5-47f1-a2ca-13d4b62b320d
 
 # Choisir l'ensemble d'API approprié dans SharePoint 2013
 En savoir plus sur les ensembles d'API fournis dans SharePoint 2013, y compris le modèle objet serveur, les différents modèles objet client et le service web REST/OData.
+
 **Regarder la vidéo : Stratégie SharePoint 2013 pour le modèle objet client (CSOM) et REST**
 
   
@@ -111,7 +112,7 @@ Le tableau suivant fournit des indications sur les ensembles d'API à utiliser p
 |Créer un travail du minuteur  <br/> |Modèle objet serveur  <br/> |
 |Créer une extension de l'administration centrale  <br/> |Modèle objet serveur  <br/> |
 |Créer la cohérence de la marque dans l'ensemble d'une batterie de serveurs SharePoint  <br/> |Modèle objet serveur  <br/> |
-|Créer un composant WebPart, une page d'application ou un contrôle utilisateur ASP.NET personnalisé  <br/> |Modèle objet serveur  <br/> > **IMPORTANTE**> Si la fonctionnalité que vous souhaitez offrir aux clients n'est pas orientée vers l'administration SharePoint à une portée s'étendant au-delà de la collection de sites, nous vous recommandons de créer une Complément SharePoint incluant une application web ASP.NET à distance avec des composants WebPart et des contrôles utilisateur personnalisés si nécessaire, au lieu d'utiliser le modèle objet serveur. Reportez-vous aux deux premières lignes de ce tableau.           |
+|Créer un composant WebPart, une page d'application ou un contrôle utilisateur ASP.NET personnalisé  <br/> |Modèle objet serveur  <br/> **IMPORTANTE** <br/> Si la fonctionnalité que vous souhaitez offrir aux clients n'est pas orientée vers l'administration SharePoint à une portée s'étendant au-delà de la collection de sites, nous vous recommandons de créer une Complément SharePoint incluant une application web ASP.NET à distance avec des composants WebPart et des contrôles utilisateur personnalisés si nécessaire, au lieu d'utiliser le modèle objet serveur. Reportez-vous aux deux premières lignes de ce tableau.           |
    
 
 ## Modèle objet serveur

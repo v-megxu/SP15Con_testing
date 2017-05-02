@@ -78,6 +78,7 @@ Es folgen Links zu einigen der Dokumentationen und Anleitungen auf TechNet:
     
 
 In den folgenden Tabellen aufgelistet, Blogs, Foren und zusätzliche Ressourcen zur anspruchsbasierten Identität und allgemeinen Sicherheit in SharePoint Server.
+
 **Tabelle 1: Blogs**
 
 

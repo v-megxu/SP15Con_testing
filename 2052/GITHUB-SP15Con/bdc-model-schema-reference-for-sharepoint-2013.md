@@ -1,7 +1,7 @@
 ---
 title: SharePoint 2013 的 BDC 模型架构引用
 ms.prod: SHAREPOINT
-ms.assetid: 979a5ffc-f033-4e72-b2d1-11d8cb1b294a
+ms.assetid: 979a5ffc-f033-4e72-b2d1-11d8cb1b294a979a5ffc-f033-4e72-b2d1-11d8cb1b294a
 ---
 
 
@@ -1040,8 +1040,8 @@ Convert 元素指定将数据值的数据类型转换为另一种数据类型的
 
 |**特性**|**描述**|
 |:-----|:-----|
-|**Namespace** <br/> |必需。  <br/> 此外部内容类型所属的命名空间。  <br/> 属性类型： **String** <br/> > **注释**> 命名空间不应包含特殊字符" *****"。           |
-|**Version** <br/> |必需。  <br/> 此外部内容类型的版本号。  <br/> 属性类型： **String** <br/> > **警告**> 当 BDC 模型发生更改时，必须增加外部内容类型的版本号。如果外部内容类型的结构发生更改，应增加主版本号。结构性更改的示例包括向 **SpecificFinder** 添加字段或更改标识符字段。如果更改不影响外部内容类型的结构（例如，添加 Creator 方法、更改连接信息或更改 **LobSystems** 和类型描述符的名称），应更改内部版本号和修订号。          |
+|**Namespace** <br/> |必需。  <br/> 此外部内容类型所属的命名空间。  <br/> 属性类型： **String** <br/> **注释** <br/> 命名空间不应包含特殊字符" *****"。           |
+|**Version** <br/> |必需。  <br/> 此外部内容类型的版本号。  <br/> 属性类型： **String** <br/> **警告** <br/> 当 BDC 模型发生更改时，必须增加外部内容类型的版本号。如果外部内容类型的结构发生更改，应增加主版本号。结构性更改的示例包括向 **SpecificFinder** 添加字段或更改标识符字段。如果更改不影响外部内容类型的结构（例如，添加 Creator 方法、更改连接信息或更改 **LobSystems** 和类型描述符的名称），应更改内部版本号和修订号。          |
 |**EstimatedInstanceCount** <br/> |可选。  <br/> 外部系统包含的外部项的估计数目。  <br/> 默认值：10000  <br/> 属性类型： **Integer** <br/> |
 |**DefaultOperationMode** <br/> |可选。  <br/> 指定在创建、删除、更新或读取外部项时与外部系统交互时的默认行为。  <br/> 默认值：Default  <br/> 下表列出了该属性可能的值。  <br/> |**值**|**描述**|
 |:-----|:-----|
@@ -1051,7 +1051,7 @@ Convert 元素指定将数据值的数据类型转换为另一种数据类型的
 |Default  <br/> |使用系统默认行为。如果环境支持缓存外部项，则使用缓存模式。  <br/> |
    
 |
-|名称  <br/> |必需。  <br/> 外部内容类型的名称。  <br/> 属性类型： **String** <br/> > **注释**> 外部内容类型的名称不应包含星号特殊字符" *****"。           |
+|名称  <br/> |必需。  <br/> 外部内容类型的名称。  <br/> 属性类型： **String** <br/> **注释** <br/> 外部内容类型的名称不应包含星号特殊字符" *****"。           |
 |DefaultDisplayName  <br/> |可选。  <br/> 外部内容类型的默认显示名称。  <br/> 属性类型： **String** <br/> |
 |IsCached  <br/> |可选。  <br/> 指定此外部内容类型是否将经常使用。如果设置为 True，Business Data Connectivity (BDC) 服务 将在内存中缓存此外部内容类型。  <br/> 默认值： **true** <br/> 属性类型： **Boolean** <br/> |
    
@@ -2751,7 +2751,7 @@ Convert 元素指定将数据值的数据类型转换为另一种数据类型的
 |**UpdaterField** <br/> |可选。  <br/> 指定 **TypeDescriptor** 是否表示类型为 **Updater** 的 **MethodInstances** 的字段，该方法实例包含在 **Method**（其所含 **Parameter** 包含 **TypeDescriptor**）中。在指定此属性时，不能指定 **PreUpdaterField** 属性。 <br/> 默认值： **false** <br/> 属性类型： **Boolean** <br/> |
 |**PreUpdaterField** <br/> |可选。  <br/> 指定由 **TypeDescriptor** 表示的数据结构是否存储从外部系统接收的类型为 **Updater** 的 **MethodInstances** 的字段的最新数据值。在指定此属性时，不能指定 **UpdaterField** 属性。 <br/> 默认值： **false** <br/> 属性类型： **Boolean** <br/> |
 |**Significant** <br/> |可选。  <br/> 指定在计算哈希代码或比较数据结构中存储的值时，是否包含由此 **TypeDescriptor** 表示的数据结构所存储的值。例如，在确定某个记录是否已修改时，可以考虑表示客户的姓氏的 **TypeDescriptor**，因此它很重要。而在确定某个记录是否已修改时，表示最近一次修改客户记录的日期的 **TypeDescriptor** 通常不在考虑范围内，因此它不重要。 <br/> 默认值： **true** <br/> 属性类型： **Boolean** <br/> |
-|**Name** <br/> |必需。  <br/> **TypeDescriptor** 的名称。 <br/> 属性类型： **String** <br/> > **注释**> **TypeDescriptor** 的名称不得包含左斜线 ("/")、句号 (".") 或左方括号 ("[") 的特殊字符。          |
+|**Name** <br/> |必需。  <br/> **TypeDescriptor** 的名称。 <br/> 属性类型： **String** <br/> **注释** <br/> **TypeDescriptor** 的名称不得包含左斜线 ("/")、句号 (".") 或左方括号 ("[") 的特殊字符。          |
 |**DefaultDisplayName** <br/> |可选。  <br/> **TypeDescriptor** 的显示名称。 <br/> 属性类型： **String** <br/> |
 |**IsCached** <br/> |可选。  <br/> 指定是否频繁使用 **TypeDescriptor**。  <br/> 默认值： **true** <br/> 属性类型： **Boolean** <br/> |
    

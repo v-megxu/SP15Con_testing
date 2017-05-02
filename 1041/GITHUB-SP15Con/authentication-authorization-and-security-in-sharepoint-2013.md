@@ -69,7 +69,7 @@ SharePoint 2013では、以下の種類の認証をサポートしています�
     Windows クレーム モードを使用した SharePoint へのサインインについては、「 [受信クレーム: SharePoint 2013 にサインインする](incoming-claims-signing-into-sharepoint-2013.md)」を参照してください。
     
     > **重要**
-    >  偽装の中断の詳細については、「 [呼び出し元ユーザーの偽装を一時中断しないようにする](http://msdn.microsoft.com/ja-jp/library/ff407852.aspx)」を参照してください。 
+      >  偽装の中断の詳細については、「 [呼び出し元ユーザーの偽装を一時中断しないようにする](http://msdn.microsoft.com/ja-jp/library/ff407852.aspx)」を参照してください。 
 - **ASP.NET フォーム:** プラグ可能な ASP.NET フォーム ベースの認証システムを使用する、Windows 以外の ID 管理システムがサポートされています。このモードでは、SharePoint 2013はライトウェイト ディレクトリ アクセス プロトコル (LDAP)、ライトウェイト データベース ID 管理システムなど、外部に定義されたグループまたはロールを含めたさまざまな ID 管理システムを操作できます。フォーム認証では、ASP.NET を使用して SharePoint 2013の認証を実行できます。多くの場合、ログオン ページにリダイレクトすることになります。SharePoint 2013では、ASP.NET フォームはクレーム認証でのみサポートされています。フォーム プロバイダーは、クレーム用に構成された Web アプリケーション内に登録する必要があります。
     
     ASP.NET メンバーシップおよびロール パッシブ サインインを使用した SharePoint へのサインインについては、「 [受信クレーム: SharePoint 2013 にサインインする](incoming-claims-signing-into-sharepoint-2013.md)」を参照してください。

@@ -31,8 +31,8 @@ Ein MSI-Paket mit dem Namen SQLSysClrTypes.msi muss auf jedem Front-End-Webserve
   
 - Ein gültiger Bing Maps-Schlüssel festgelegt Farm oder Web-Ebene, die aus der Bing Maps-Kontocenterhttp://www.bingmapsportal.com/ []()
     
-    > **WICHTIG**
-      > Sie sind verantwortlich für die Einhaltung von Ausdrücken und Vorschriften für Ihre Verwendung von Bing Maps-Schlüssel und alle erforderlichen Angaben für Benutzer von der Anwendung zu Daten an den Bing Maps-Dienst weitergeleitet.
+> **WICHTIG**
+> Sie sind verantwortlich für die Einhaltung von Ausdrücken und Vorschriften für Ihre Verwendung von Bing Maps-Schlüssel und alle erforderlichen Angaben für Benutzer von der Anwendung zu Daten an den Bing Maps-Dienst weitergeleitet.
 - Visual Studio 2012 oder Visual Studio 2010
     
   
@@ -97,8 +97,9 @@ Die folgenden Schritte führen Sie zum Erstellen einer Kartenansicht aus der Sha
   
 
     
-    > **HINWEIS**
-      > Zum Erstellen einer Kartenansicht ist mindestens ein **Geolocation** Feld erforderlich. Sie können nicht mehrere **Geolocation** Felder für eine Kartenansicht auswählen, obwohl Sie zwei verschiedene Kartenansichten erstellen können, die zwei verschiedene **Geolocation** Felder verwenden.
+> **HINWEIS**
+> Zum Erstellen einer Kartenansicht ist mindestens ein **Geolocation** Feld erforderlich. Sie können nicht mehrere **Geolocation** Felder für eine Kartenansicht auswählen, obwohl Sie zwei verschiedene Kartenansichten erstellen können, die zwei verschiedene **Geolocation** Felder verwenden.
+
 5. Nach dem Hinzufügen der erforderlichen **Geolocation** dar und den anderen Feldern, die, den Sie benötigen, wählen Sie **OK**. Eine Kartenansicht wird erstellt, wie in Abbildung 4 dargestellt.
     
    **Abbildung 4. Vollständige Kartenansicht**

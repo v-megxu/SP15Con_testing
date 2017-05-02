@@ -242,8 +242,8 @@ Ahora ya puede crear el flujo de trabajo en sí mismo.
   
 
     
-    > **NOTA**
-      > Puede cambiar el tipo de asociación de flujo de trabajo después de crear el flujo de trabajo mediante la cuadrícula de propiedades con el flujo de trabajo seleccionado en el **Explorador de soluciones** (consulte la figura 9). Después, haga clic en **Finalizar**. 
+> **NOTA**
+> Puede cambiar el tipo de asociación de flujo de trabajo después de crear el flujo de trabajo mediante la cuadrícula de propiedades con el flujo de trabajo seleccionado en el **Explorador de soluciones** (consulte la figura 9). Después, haga clic en **Finalizar**. 
 
    **Figura 9. Cuadrícula de propiedades del flujo de trabajo.**
 
@@ -395,7 +395,7 @@ Ahora que hemos configurado SharePoint Server y creado el flujo de trabajo bási
 ![Convertir la variable "Approver" a un tipo de datos de cadena](images/ngGK_Fig16.png)
   
 
-    Llegados a este punto del tutorial, ha creado y configurado una tarea de flujo de trabajo que hace dos cosas: Establece un documento para su revisión, pero también envía un correo electrónico al encargado de la tarea (el "aprobador", en este caso) en el que le notifica que se le ha asignado una tarea y espera que emprenda acciones.
+Llegados a este punto del tutorial, ha creado y configurado una tarea de flujo de trabajo que hace dos cosas: Establece un documento para su revisión, pero también envía un correo electrónico al encargado de la tarea (el "aprobador", en este caso) en el que le notifica que se le ha asignado una tarea y espera que emprenda acciones.
     
   
 7. Echemos un vistazo a la cuadrícula de propiedades de la actividad **SingleTask**. Desplácese a la parte inferior de la cuadrícula de propiedades y observe que en la sección **Salida** hay dos propiedades, **Outcome** y **TaskItemId**, que son argumentos out.
@@ -448,7 +448,7 @@ Ahora que hemos configurado SharePoint Server y creado el flujo de trabajo bási
 ![Agregar una actividad CopyItem al flujo de trabajo](images/ngGK_Fig19.png)
   
 
-    Después, configure las propiedades de la actividad **CopyItem** en la cuadrícula de propiedades, como se muestra en la figura 20. Los valores de las propiedades aparecen resaltados.
+Después, configure las propiedades de la actividad **CopyItem** en la cuadrícula de propiedades, como se muestra en la figura 20. Los valores de las propiedades aparecen resaltados.
     
 
    **Figura 20. Configuración de la actividad CopyItem.**
@@ -459,8 +459,9 @@ Ahora que hemos configurado SharePoint Server y creado el flujo de trabajo bási
   
 
     
-    > **NOTA**
-      > En este tutorial damos por supuesto que todos los documentos publicados salen de la biblioteca de borradores de documentos. Por lo tanto, no es necesario preocuparse de controlar los nombres de archivo duplicados. 
+> **NOTA**
+> En este tutorial damos por supuesto que todos los documentos publicados salen de la biblioteca de borradores de documentos. Por lo tanto, no es necesario preocuparse de controlar los nombres de archivo duplicados. 
+
 11. Por último, tenemos que agregar una actividad para controlar los casos en los que el revisor rechace el documento. Para ello, es necesario agregar una actividad **UpdateListItem** en el área **Else** de la actividad **If** actual. Configure esta actividad **UpdateListItem** de la misma manera en que configuró la anterior en el paso 9(c). La única diferencia es que ahora queremos establecer el estado del documento en "Rechazado", como se muestra en la figura 21.
     
    **Figura 21. Configuración de las propiedades de la actividad UpdateListItem para documentos rechazados.**

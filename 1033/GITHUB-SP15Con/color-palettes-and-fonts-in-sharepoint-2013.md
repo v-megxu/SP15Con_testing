@@ -17,50 +17,50 @@ A color palette is the combination of colors that are used in a SharePoint site.
 
 - **Color palette file (.spcolor)**
     
-    Color palette files are used in the **Change the look** wizard, which enables users to change the look and feel of their site by using the SharePoint themes user interface. By default, 32 color palette files are installed with SharePoint 2013. You can also create additional color palette files. The following example shows the format of a color palette file.
+Color palette files are used in the **Change the look** wizard, which enables users to change the look and feel of their site by using the SharePoint themes user interface. By default, 32 color palette files are installed with SharePoint 2013. You can also create additional color palette files. The following example shows the format of a color palette file.
     
 
 
-  ```XML
+    ```XML
   
-<s:colorPalette isInverted="InvertedSetting" previewSlot1="Slot1" previewSlot2="Slot2" previewSlot3="Slot3" xmlns:s="http://schemas.microsoft.com/sharepoint/">
+    <s:colorPalette isInverted="InvertedSetting" previewSlot1="Slot1" previewSlot2="Slot2" previewSlot3="Slot3" xmlns:s="http://schemas.microsoft.com/sharepoint/">
     <s:color name="ColorSlot" value="Color" />
     <!--additional color slots-->
-</s:colorPalette>
-  ```
+    </s:colorPalette>
+    ```
 
 
-    In a color palette file, the following placeholders are replaced:
+In a color palette file, the following placeholders are replaced:
     
-  -  _InvertedSetting_ is a Boolean value. **true** if the color palette is generally light text on a dark background. **false** if the color palette is generally dark text on a light background.
-    
-  
-  -  _Slot1_ is the annotation name of the color slot to use as the first block of the palette icon in the color palette picker of the theming experience.
+-  _InvertedSetting_ is a Boolean value. **true** if the color palette is generally light text on a dark background. **false** if the color palette is generally dark text on a light background.
     
   
-  -  _Slot2_ is the annotation name of the color slot to use as the second block of the palette icon in the color palette picker of the theming experience.
+-  _Slot1_ is the annotation name of the color slot to use as the first block of the palette icon in the color palette picker of the theming experience.
     
   
-  -  _Slot3_ is the annotation name of the color slot to use as the third block of the palette icon in the color palette picker of the theming experience.
+-  _Slot2_ is the annotation name of the color slot to use as the second block of the palette icon in the color palette picker of the theming experience.
     
   
-  -  _ColorSlot_ is the annotation name of the color slot that you are defining (for example, SiteTitle).
+-  _Slot3_ is the annotation name of the color slot to use as the third block of the palette icon in the color palette picker of the theming experience.
     
   
-  -  _Color_ is the hexadecimal value of the color to use for the specified color slot. This may be in 6 digits (RRGGBB) or 8 digits (AARRGGBB). If the hexadecimal value is 8 digits, the first two digits represent the opacity level (00-FF, which maps to 0-255). If the hexadecimal value is 6 digits, the default opacity is 100% or FF.
+-  _ColorSlot_ is the annotation name of the color slot that you are defining (for example, SiteTitle).
+    
+  
+-  _Color_ is the hexadecimal value of the color to use for the specified color slot. This may be in 6 digits (RRGGBB) or 8 digits (AARRGGBB). If the hexadecimal value is 8 digits, the first two digits represent the opacity level (00-FF, which maps to 0-255). If the hexadecimal value is 6 digits, the default opacity is 100% or FF.
     
   
 
-    The color palette files are located in the Theme Gallery of the root site, in the site collection in the **15** folder (http:// _SiteCollectionName_/_catalogs/theme/15/). To access the Theme Gallery from the SharePoint user interface, on the **Site Settings** page, under **Web Designer Galleries**, select **Themes**, and then select **15**.
+The color palette files are located in the Theme Gallery of the root site, in the site collection in the **15** folder (http:// _SiteCollectionName_/_catalogs/theme/15/). To access the Theme Gallery from the SharePoint user interface, on the **Site Settings** page, under **Web Designer Galleries**, select **Themes**, and then select **15**.
     
   
 - **Master page preview file (.preview)**
     
-    Master page preview files are used to generate thumbnail images and preview images when you use the **Change the look** wizard. A master page must have a corresponding preview file to be used in the **Change the look** wizard. A preview file is a specially formatted file that has sections for the default color palette, default font scheme, tokenized CSS, and tokenized HTML. It uses string tokens to get the value of color slots, font names, and localized UI strings. The following example shows color slots being used in the master page preview file.
+Master page preview files are used to generate thumbnail images and preview images when you use the **Change the look** wizard. A master page must have a corresponding preview file to be used in the **Change the look** wizard. A preview file is a specially formatted file that has sections for the default color palette, default font scheme, tokenized CSS, and tokenized HTML. It uses string tokens to get the value of color slots, font names, and localized UI strings. The following example shows color slots being used in the master page preview file.
     
 
 
-  ```HTML
+    ```HTML
   
 [ID] #dgp-pageContainer
 {
@@ -72,10 +72,10 @@ A color palette is the combination of colors that are used in a SharePoint site.
     background-size: cover;
     font-family: [T_BODY_FONT];   
 }
-  ```
+    ```
 
 
-    For more information, see  [How to: Create a master page preview file in SharePoint 2013](how-to-create-a-master-page-preview-file-in-sharepoint-2013.md)
+For more information, see  [How to: Create a master page preview file in SharePoint 2013](how-to-create-a-master-page-preview-file-in-sharepoint-2013.md)
     
   
 

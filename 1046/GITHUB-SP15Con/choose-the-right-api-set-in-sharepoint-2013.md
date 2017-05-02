@@ -8,6 +8,7 @@ ms.assetid: f36645da-77c5-47f1-a2ca-13d4b62b320d
 
 # Escolha o conjunto de APIs certo no SharePoint 2013
 Saiba mais sobre os vários conjuntos de APIs que são fornecidos no SharePoint 2013, incluindo o modelo de objeto servidor e os diversos modelos de objeto cliente e o serviço Web REST/OData.
+
 **Assista ao vídeo: Estratégia de SharePoint 2013 para o CSOM (modelo de objeto cliente) do SharePoint e o REST**
 
   
@@ -111,7 +112,7 @@ A tabela a seguir fornece orientação sobre o conjunto de APIs a ser usado para
 |Criar um trabalho de temporizador  <br/> |Modelo de objeto servidor  <br/> |
 |Criar uma extensão da Administração Central  <br/> |Modelo de objeto servidor  <br/> |
 |Criar uma identidade visual consistente em um farm do SharePoint inteiro  <br/> |Modelo de objeto servidor  <br/> |
-|Criar uma Web Part, uma página de aplicativo ou um controle de usuário do ASP.NET personalizado  <br/> |Modelo de objeto servidor  <br/> > **IMPORTANTE**> Se a funcionalidade que você deseja oferecer aos clientes não estiver voltada para a administração do SharePoint em um escopo mais amplo do que o conjunto de sites, recomendamos que, em vez de usar o modelo de objeto servidor, você crie um Suplemento do SharePoint que inclua um aplicativo Web ASP.NET remoto com controles de usuário e Web Parts personalizados, conforme necessário. Confira as duas linhas superiores da tabela.           |
+|Criar uma Web Part, uma página de aplicativo ou um controle de usuário do ASP.NET personalizado  <br/> |Modelo de objeto servidor  <br/> **IMPORTANTE** <br/> Se a funcionalidade que você deseja oferecer aos clientes não estiver voltada para a administração do SharePoint em um escopo mais amplo do que o conjunto de sites, recomendamos que, em vez de usar o modelo de objeto servidor, você crie um Suplemento do SharePoint que inclua um aplicativo Web ASP.NET remoto com controles de usuário e Web Parts personalizados, conforme necessário. Confira as duas linhas superiores da tabela.           |
    
 
 ## Modelo de objeto servidor

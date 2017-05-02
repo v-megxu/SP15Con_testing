@@ -21,46 +21,46 @@ ms.assetid: c17d375b-151f-48ae-ac32-f2ce9e68d63f
     
 
 
-  ```XML
+    ```XML
   
-<s:colorPalette isInverted="InvertedSetting" previewSlot1="Slot1" previewSlot2="Slot2" previewSlot3="Slot3" xmlns:s="http://schemas.microsoft.com/sharepoint/">
+    <s:colorPalette isInverted="InvertedSetting" previewSlot1="Slot1" previewSlot2="Slot2" previewSlot3="Slot3" xmlns:s="http://schemas.microsoft.com/sharepoint/">
     <s:color name="ColorSlot" value="Color" />
     <!--additional color slots-->
-</s:colorPalette>
-  ```
+    </s:colorPalette>
+    ```
 
 
-    在调色板文件中，以下占位符会被替换：
+在调色板文件中，以下占位符会被替换：
     
-  -  _InvertedSetting_ 是一个布尔值。如果调色板是在深色背景上采用普遍浅色文本，则为 **true**。如果调色板是在浅色背景上采用普遍深色文本，则为 **false**。
-    
-  
-  -  _Slot1_ 是将用作调色板图标中第一个颜色块的颜色插槽的批注名称，该图标位于主题设置体验的调色板选取器中。
+-  _InvertedSetting_ 是一个布尔值。如果调色板是在深色背景上采用普遍浅色文本，则为 **true**。如果调色板是在浅色背景上采用普遍深色文本，则为 **false**。
     
   
-  -  _Slot2_ 是将用作调色板图标中第二个颜色块的颜色插槽的批注名称，该图标位于主题设置体验的调色板选取器中。
+-  _Slot1_ 是将用作调色板图标中第一个颜色块的颜色插槽的批注名称，该图标位于主题设置体验的调色板选取器中。
     
   
-  -  _Slot3_ 是将用作调色板图标中第三个颜色块的颜色插槽的批注名称，该图标位于主题设置体验的调色板选取器中。
+-  _Slot2_ 是将用作调色板图标中第二个颜色块的颜色插槽的批注名称，该图标位于主题设置体验的调色板选取器中。
     
   
-  -  _ColorSlot_ 是您所定义的颜色插槽的批注名称（例如，SiteTitle）。
+-  _Slot3_ 是将用作调色板图标中第三个颜色块的颜色插槽的批注名称，该图标位于主题设置体验的调色板选取器中。
     
   
-  -  _Color_ 是将用于指定颜色插槽的颜色的十六进制值。该值可能为 6 位 (RRGGBB) 或 8 位 (AARRGGBB)。如果十六进制值为 8 位，则前两位代表不透明度（00-FF，映射到 0-255）。如果十六进制值为 6 位，则默认不透明度为 100% 或 FF。
+-  _ColorSlot_ 是您所定义的颜色插槽的批注名称（例如，SiteTitle）。
+    
+  
+-  _Color_ 是将用于指定颜色插槽的颜色的十六进制值。该值可能为 6 位 (RRGGBB) 或 8 位 (AARRGGBB)。如果十六进制值为 8 位，则前两位代表不透明度（00-FF，映射到 0-255）。如果十六进制值为 6 位，则默认不透明度为 100% 或 FF。
     
   
 
-    调色板文件位于根网站的主题库中，根网站位于"15"文件夹 (http:// _SiteCollectionName_/_catalogs/theme/15/) 的网站集中。若要从 SharePoint 用户界面访问主题库，在"网站设置"页面的"Web 设计器库"下选择"主题"，然后选择"15"。
+调色板文件位于根网站的主题库中，根网站位于"15"文件夹 (http:// _SiteCollectionName_/_catalogs/theme/15/) 的网站集中。若要从 SharePoint 用户界面访问主题库，在"网站设置"页面的"Web 设计器库"下选择"主题"，然后选择"15"。
     
   
 - **母版页预览文件 (.preview)**
     
-    母版页预览文件用于在您使用"更改外观"向导时生成缩略图图像和预览图像。母版页必须具有用于"更改外观"向导的相应预览文件。预览文件是经过特殊格式化的文件，具有针对默认调色板、默认字体方案、已标记化的 CSS 和已标记化的 HTML 的部分。它使用字符串标记来获取颜色插槽、字体名称和本地化 UI 字符串的值。以下示例显示了母版页预览文件中使用的颜色插槽。
+母版页预览文件用于在您使用"更改外观"向导时生成缩略图图像和预览图像。母版页必须具有用于"更改外观"向导的相应预览文件。预览文件是经过特殊格式化的文件，具有针对默认调色板、默认字体方案、已标记化的 CSS 和已标记化的 HTML 的部分。它使用字符串标记来获取颜色插槽、字体名称和本地化 UI 字符串的值。以下示例显示了母版页预览文件中使用的颜色插槽。
     
 
 
-  ```HTML
+    ```HTML
   
 [ID] #dgp-pageContainer
 {
@@ -72,10 +72,10 @@ ms.assetid: c17d375b-151f-48ae-ac32-f2ce9e68d63f
     background-size: cover;
     font-family: [T_BODY_FONT];   
 }
-  ```
+    ```
 
 
-    有关详细信息，请参阅 [如何：在 SharePoint 2013 中创建母版页预览文件](how-to-create-a-master-page-preview-file-in-sharepoint-2013.md)
+有关详细信息，请参阅 [如何：在 SharePoint 2013 中创建母版页预览文件](how-to-create-a-master-page-preview-file-in-sharepoint-2013.md)
     
   
 

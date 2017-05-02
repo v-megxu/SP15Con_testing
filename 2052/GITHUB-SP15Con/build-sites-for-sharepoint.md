@@ -28,10 +28,10 @@ SharePoint 2013 介绍网站创作和发布模型来创建发布网站。可以�
 - **Managing metadata** - 您可以生成分类法驱动的网站导航系统。
     
   
-- **Publishing** 顺利满足当前网站集或跨网站集发布内容甚至跨 Intranet 和 Internet 网站界限。
+- **Publishing** 顺利满足当前网站集或跨网站集发布内容 - 甚至跨 Intranet 和 Internet 网站界限。
     
   
-- **Accessibility**您可以用于提高已发布网站的可访问性。
+- **Accessibility** - 您可以用于提高已发布网站的可访问性。
     
   
 如果您想查看 SharePoint 2013 中发布网站的最新功能（针对设计人员和开发人员）摘要，请参阅  [SharePoint 2013 网站开发的新增内容](what-s-new-with-sharepoint-2013-site-development.md)。
@@ -70,7 +70,7 @@ SharePoint 2013 包括发布网页的页面模型。该页面包括主页、页�
 ## 主页和页面布局
 <a name="SP15_BuildSitesForSP2013_MasterAndLayout"> </a>
 
-主页是指定义您的网页的共享结构元素的主模板版式。.该网页上的所有页面共享定义显示网页布局内容的网页区域的这些元素。
+主页是指定义您的网页的共享结构元素的主模板 - 版式。该网页上的所有页面共享定义显示网页布局内容的网页区域的这些元素。
   
     
     

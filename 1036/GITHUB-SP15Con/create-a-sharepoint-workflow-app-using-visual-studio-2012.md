@@ -242,8 +242,8 @@ Nous sommes maintenant prêts à créer le flux de travail.
   
 
     
-    > **REMARQUE**
-      > Vous pouvez modifier le type d'association du flux de travail une fois que ce dernier a été créé, et ce à l'aide de la grille des propriétés avec le flux de travail sélectionné dans l' **Explorateur de solutions** (voir figure 9). Cliquez ensuite sur **Terminer**. 
+> **REMARQUE**
+> Vous pouvez modifier le type d'association du flux de travail une fois que ce dernier a été créé, et ce à l'aide de la grille des propriétés avec le flux de travail sélectionné dans l' **Explorateur de solutions** (voir figure 9). Cliquez ensuite sur **Terminer**. 
 
    **Figure 9. Grille des propriétés de flux de travail.**
 
@@ -395,7 +395,7 @@ Maintenant que SharePoint Server est configuré et que votre flux de travail de 
 ![Convertir la variable « Approbateur » vers le type de données chaîne](images/ngGK_Fig16.png)
   
 
-    À ce point dans la procédure, vous avez créé et configuré une tâche de flux de travail qui a deux fonctions : elle définit un document à réviser, mais envoie également un courrier électronique au cessionnaire de la tâche (ici l'« approbateur »), lui indiquant qu'une tâche lui a été affectée et qu'il doit la traiter.
+À ce point dans la procédure, vous avez créé et configuré une tâche de flux de travail qui a deux fonctions : elle définit un document à réviser, mais envoie également un courrier électronique au cessionnaire de la tâche (ici l'« approbateur »), lui indiquant qu'une tâche lui a été affectée et qu'il doit la traiter.
     
   
 7. Examinez la grille des propriétés pour l'activité **SingleTask**. Faites défiler jusqu'au bas de la grille des propriétés et notez que la section **Sortie** comporte deux propriétés, **Outcome** et **TaskItemId**, qui sont des arguments de sortie.
@@ -448,7 +448,7 @@ Maintenant que SharePoint Server est configuré et que votre flux de travail de 
 ![Ajout d'une activité CopyItem au flux de travail](images/ngGK_Fig19.png)
   
 
-    Ensuite, configurez les propriétés de l'activité **CopyItem** dans la grille des propriétés, comme illustré dans la figure 20. Les valeurs de propriété sont mises en surbrillance.
+Ensuite, configurez les propriétés de l'activité **CopyItem** dans la grille des propriétés, comme illustré dans la figure 20. Les valeurs de propriété sont mises en surbrillance.
     
 
    **Figure 20. Configuration de l'activité CopyItem.**
@@ -459,8 +459,9 @@ Maintenant que SharePoint Server est configuré et que votre flux de travail de 
   
 
     
-    > **REMARQUE**
-      > Dans le cadre de cette procédure, supposons que tous les documents publiés proviennent de la bibliothèque de documents provisoires. Il n'est de ce fait pas nécessaire de se préoccuper des noms de fichiers en double. 
+> **REMARQUE**
+> Dans le cadre de cette procédure, supposons que tous les documents publiés proviennent de la bibliothèque de documents provisoires. Il n'est de ce fait pas nécessaire de se préoccuper des noms de fichiers en double. 
+
 11. Enfin, vous devez ajouter une activité pour gérer le cas où le réviseur rejette le document. Pour ce faire, ajoutez une activité **UpdateListItem** à la zone **Else** de votre activité **If** en cours. Configurez cette activité **UpdateListItem** de la même manière que l'activité précédente à l'étape 9(c), sauf que vous souhaitez maintenant définir le statut du document sur « Rejeté », comme indiqué dans la figure 21.
     
    **Figure 21. Configuration des propriétés de l'activité UpdateListItem pour les documents rejetés.**

@@ -8,6 +8,7 @@ ms.assetid: f36645da-77c5-47f1-a2ca-13d4b62b320d
 
 # Auswählen des richtigen API-Satzes in SharePoint 2013
 Erfahren Sie mehr über die verschiedenen API-Gruppen, die in SharePoint 2013 bereitgestellt werden, einschließlich des Serverobjektmodells und der verschiedenen Clientobjektmodellen und des REST/OData-Webdiensts.
+
 **Video ansehen: SharePoint 2013-Strategie für das SharePoint-Clientobjektmodell (CSOM) und REST**
 
   
@@ -111,7 +112,7 @@ In der folgenden Tabelle finden Sie Anleitungen dazu, welche API-Gruppen Sie fü
 |Erstellen eines Zeitgeberauftrags  <br/> |Serverobjektmodell  <br/> |
 |Erstellen einer Erweiterung der Zentraladministration  <br/> |Serverobjektmodell  <br/> |
 |Erstellen eines konsistenten Branding in einer ganzen SharePoint-Farm  <br/> |Serverobjektmodell  <br/> |
-|Erstellen eines benutzerdefinierten Webparts, einer Anwendungsseite oder eines ASP.NET-Benutzersteuerelements  <br/> |Serverobjektmodell  <br/> > **WICHTIG**> Wenn sich die Funktion, die Sie Kunden anbieten möchten, nicht an der SharePoint-Verwaltung in einem breiteren Bereich als eine Websitesammlung orientiert, wird empfohlen, anstelle das Serverobjektmodell zu verwenden, eine SharePoint-Add-In zu erstellen, die eine ASP.NET-Remote-Webanwendung mit benutzerdefinierten Webparts und ggf. Benutzersteuerelemente umfasst. Weitere Informationen dazu finden Sie in den oberen beiden Zeilen dieser Tabelle.           |
+|Erstellen eines benutzerdefinierten Webparts, einer Anwendungsseite oder eines ASP.NET-Benutzersteuerelements  <br/> |Serverobjektmodell  <br/> **WICHTIG** <br/> Wenn sich die Funktion, die Sie Kunden anbieten möchten, nicht an der SharePoint-Verwaltung in einem breiteren Bereich als eine Websitesammlung orientiert, wird empfohlen, anstelle das Serverobjektmodell zu verwenden, eine SharePoint-Add-In zu erstellen, die eine ASP.NET-Remote-Webanwendung mit benutzerdefinierten Webparts und ggf. Benutzersteuerelemente umfasst. Weitere Informationen dazu finden Sie in den oberen beiden Zeilen dieser Tabelle.           |
    
 
 ## Serverobjektmodell

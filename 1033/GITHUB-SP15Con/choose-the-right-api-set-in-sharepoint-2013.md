@@ -8,6 +8,8 @@ ms.assetid: f36645da-77c5-47f1-a2ca-13d4b62b320d
 
 # Choose the right API set in SharePoint 2013
 Learn about the several sets of APIs that are provided in SharePoint 2013, including the server object model and the various client object models, and the REST/OData web service.
+
+
 **Watch the video: SharePoint 2013 strategy for SharePoint client object model (CSOM) and REST**
 
   
@@ -111,7 +113,7 @@ The following table provides guidance on which set of APIs to use for a selected
 |Create a timer job  <br/> |Server object model  <br/> |
 |Create an extension of Central Administration  <br/> |Server object model  <br/> |
 |Create consistent branding across an entire SharePoint farm  <br/> |Server object model  <br/> |
-|Create a custom Web Part, application page, or ASP.NET user control  <br/> |Server object model  <br/> > **IMPORTANT**> If the functionality you want to offer customers is not oriented to SharePoint administration at a scope broader than site collection, we recommend that, instead of using the server object model, you create an SharePoint Add-in that includes a remote ASP.NET web application with custom Web Parts and user controls as needed. See the top two rows of this table.           |
+|Create a custom Web Part, application page, or ASP.NET user control  <br/> |Server object model  <br/> **IMPORTANT** <br/> If the functionality you want to offer customers is not oriented to SharePoint administration at a scope broader than site collection, we recommend that, instead of using the server object model, you create an SharePoint Add-in that includes a remote ASP.NET web application with custom Web Parts and user controls as needed. See the top two rows of this table.           |
    
 
 ## Server object model
