@@ -69,7 +69,7 @@ REST URL 的三个部分为：
     
     
 
-1. **REST aspx 页面 URI** ： `http://` _<ServerName>_ `/_vti_bin/ExcelRest.aspx`
+1. **REST aspx 页面 URI** ： `http://`_<ServerName>_`/_vti_bin/ExcelRest.aspx`
     
   
 2. **工作簿位置** ： `/Docs/Documents/sampleWorkbook.xlsx`
@@ -117,7 +117,7 @@ REST URL 的三个部分为：
 http://<ServerName>/_vti_bin/ExcelRest.aspx
 ```
 
-要访问 Excel Services 中的 REST，您必须为 URL 加上前缀  `http://` _<ServerName>_ `/_vti_bin/ExcelRest.aspx`。
+要访问 Excel Services 中的 REST，您必须为 URL 加上前缀  `http://`_<ServerName>_`/_vti_bin/ExcelRest.aspx`。
   
     
     
