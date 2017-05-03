@@ -26,7 +26,7 @@
 
 |||
 |:-----|:-----|
-|**本文内容**          [代码示例：具有工作流功能的 SharePoint 外接程序](#WFappbk_sample)           [其他资源](#WFappbk_addres) <br/> | ![相关代码段和示例应用程序](images/mod_icon_links_samples.png) <br/>  [SharePoint 2013 工作流：构建具有工作流功能的 SharePoint 应用程序](http://code.msdn.microsoft.com/SharePoint-2013-workflow-580034f9) <br/> |
+|**本文内容**          [代码示例：具有工作流功能的 SharePoint 外接程序](#WFappbk_sample)      <br/>     [其他资源](#WFappbk_addres) <br/> | ![相关代码段和示例应用程序](images/mod_icon_links_samples.png) <br/>  [SharePoint 2013 工作流：构建具有工作流功能的 SharePoint 应用程序](http://code.msdn.microsoft.com/SharePoint-2013-workflow-580034f9) <br/> |
    
 
 ## 代码示例：具有工作流功能的 SharePoint 外接程序
