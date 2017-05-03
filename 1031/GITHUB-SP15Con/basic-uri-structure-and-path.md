@@ -59,7 +59,7 @@ Im Anschluss finden Sie ein Beispiel dafür, wie eine REST-URL in Excel Services
 http://<ServerName>/_vti_bin/ExcelRest.aspx/Docs/Documents/sampleWorkbook.xlsx/model/Charts('SampleChart')
 ```
 
-Die Arbeitsmappe ist in einer Dokumentbibliothek gespeichert. Der vollständige Pfad zu der Arbeitsmappe lautet  `http://` _<Servername>_ `/Docs/Documents/sampleWorkbook.xlsx`.
+Die Arbeitsmappe ist in einer Dokumentbibliothek gespeichert. Der vollständige Pfad zu der Arbeitsmappe lautet  `http://`_\<ServerName\>_`/Docs/Documents/sampleWorkbook.xlsx`.
   
     
     
@@ -68,7 +68,7 @@ Die drei Teile der REST-URL sind:
     
     
 
-1. **REST-URI zur "ASPX"-Seite**: `http://` _<Servername>_ `/_vti_bin/ExcelRest.aspx`
+1. **REST-URI zur "ASPX"-Seite**: `http://`_\<ServerName\>_`/_vti_bin/ExcelRest.aspx`
     
   
 2. **Speicherort der Arbeitsmappe**: `/Docs/Documents/sampleWorkbook.xlsx`
@@ -116,7 +116,7 @@ Im Anschluss finden Sie die **ASPX**-Seite für den REST-Dienst in Excel Service
 http://<ServerName>/_vti_bin/ExcelRest.aspx
 ```
 
-Um auf den REST-Dienst in Excel Services zugreifen zu können, müssen Sie der URL  `http://` _<Servername>_ `/_vti_bin/ExcelRest.aspx` voranstellen.
+Um auf den REST-Dienst in Excel Services zugreifen zu können, müssen Sie der URL  `http://`_\<ServerName\>_`/_vti_bin/ExcelRest.aspx` voranstellen.
   
     
     

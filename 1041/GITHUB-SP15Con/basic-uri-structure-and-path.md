@@ -60,7 +60,7 @@ http://<ServerName>/_vti_bin/ExcelRest.aspx/<DocumentLibrary>/<FileName>/<Resour
 http://<ServerName>/_vti_bin/ExcelRest.aspx/Docs/Documents/sampleWorkbook.xlsx/model/Charts('SampleChart')
 ```
 
-ブックはドキュメント ライブラリに格納されます。ブックへの完全パスは  `http://` _<ServerName>_ `/Docs/Documents/sampleWorkbook.xlsx` です。
+ブックはドキュメント ライブラリに格納されます。ブックへの完全パスは  `http://`_\<ServerName\>_`/Docs/Documents/sampleWorkbook.xlsx` です。
   
     
     
@@ -69,7 +69,7 @@ REST URL の 3 つのパーツは次のとおりです。
     
     
 
-1. **REST aspx ページの URI**: `http://` _<ServerName>_ `/_vti_bin/ExcelRest.aspx`
+1. **REST aspx ページの URI**: `http://`_\<ServerName\>_`/_vti_bin/ExcelRest.aspx`
     
   
 2. **ブックの場所**: `/Docs/Documents/sampleWorkbook.xlsx`
@@ -117,7 +117,7 @@ Excel Services の REST サービスの aspx ページは次のとおりです�
 http://<ServerName>/_vti_bin/ExcelRest.aspx
 ```
 
-Excel Services の REST サービスにアクセスするには、URL の前に  `http://` _<ServerName>_ `/_vti_bin/ExcelRest.aspx` を追加します。
+Excel Services の REST サービスにアクセスするには、URL の前に  `http://`_\<ServerName\>_`/_vti_bin/ExcelRest.aspx` を追加します。
   
     
     

@@ -60,7 +60,7 @@ http://<ServerName>/_vti_bin/ExcelRest.aspx/<DocumentLibrary>/<FileName>/<Resour
 http://<ServerName>/_vti_bin/ExcelRest.aspx/Docs/Documents/sampleWorkbook.xlsx/model/Charts('SampleChart')
 ```
 
-工作簿存储在文档库中。工作簿的完整路径为  `http://` \<ServerName\> `/Docs/Documents/sampleWorkbook.xlsx`。
+工作簿存储在文档库中。工作簿的完整路径为  `http://`_\<ServerName\>_`/Docs/Documents/sampleWorkbook.xlsx`。
   
     
     
@@ -69,7 +69,7 @@ REST URL 的三个部分为：
     
     
 
-1. **REST aspx 页面 URI** ： `http://`_<ServerName>_`/_vti_bin/ExcelRest.aspx`
+1. **REST aspx 页面 URI** ： `http://`_\<ServerName\>_`/_vti_bin/ExcelRest.aspx`
     
   
 2. **工作簿位置** ： `/Docs/Documents/sampleWorkbook.xlsx`
