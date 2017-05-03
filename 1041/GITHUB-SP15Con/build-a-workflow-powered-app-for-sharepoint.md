@@ -18,7 +18,7 @@
     
     
 SharePoint 2013のワークフローの仕組みを取り込んだ SharePoint アドインの作成方法を簡単に紹介します。
- * **適用対象:*** 
+ * **適用対象:**
   
     
     
@@ -26,7 +26,7 @@ SharePoint 2013のワークフローの仕組みを取り込んだ SharePoint �
 
 |||
 |:-----|:-----|
-|**この記事の内容**    |      [コード例: ワークフロー駆動型 SharePoint アドイン](#WFappbk_sample)     |      [その他の技術情報](#WFappbk_addres) <br/> |   ![関連するコード スニペットおよびサンプル アプリ](images/mod_icon_links_samples.png) <br/>  [SharePoint 2013 workflow: Build a workflow-powered app for SharePoint (英語)](http://code.msdn.microsoft.com/SharePoint-2013-workflow-580034f9) <br/> |
+|**この記事の内容**   |   [コード例: ワークフロー駆動型 SharePoint アドイン](#WFappbk_sample)   <br/>   [その他の技術情報](#WFappbk_addres) <br/> |   ![関連するコード スニペットおよびサンプル アプリ](images/mod_icon_links_samples.png) <br/>  [SharePoint 2013 workflow: Build a workflow-powered app for SharePoint (英語)](http://code.msdn.microsoft.com/SharePoint-2013-workflow-580034f9) <br/> |
    
 
 ## コード例: ワークフロー駆動型 SharePoint アドイン
