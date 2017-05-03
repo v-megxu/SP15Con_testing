@@ -24,7 +24,7 @@ Eine vollständige Beschreibung der Vorgehensweise zum Konfigurieren einer hybri
     
 
 > **VORSICHT**
-> Um eine SharePoint-hybridumgebung konfigurieren, benötigen Sie eine Kombination von Experten Fähigkeiten und erhebliche praktische Erfahrung mit SharePoint Server 2013, SharePoint Online, und verwandte Produkte und -Technologien. Es wird empfohlen, dass Sie ausschließlich zu Microsoft Consulting Services technische Anleitungen und während der Entwurf und Bereitstellung Ihrer hybridumgebung unterstützen.> Weitere Informationen finden Sie unter  [Microsoft Services](http://www.microsoft.com/en-us/microsoftservices/deploy.aspx).
+> Um eine SharePoint-hybridumgebung konfigurieren, benötigen Sie eine Kombination von Experten Fähigkeiten und erhebliche praktische Erfahrung mit SharePoint Server 2013, SharePoint Online, und verwandte Produkte und -Technologien. Es wird empfohlen, dass Sie ausschließlich zu Microsoft Consulting Services technische Anleitungen und während der Entwurf und Bereitstellung Ihrer hybridumgebung unterstützen. <br/> Weitere Informationen finden Sie unter  [Microsoft Services](http://www.microsoft.com/en-us/microsoftservices/deploy.aspx).
   
     
     

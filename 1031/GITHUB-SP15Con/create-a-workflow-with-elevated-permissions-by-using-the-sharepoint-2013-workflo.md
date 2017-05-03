@@ -106,7 +106,13 @@ Damit der Workflow ordnungsgemäß funktionieren kann, muss diesem die Berechtig
     
 
 > **WICHTIG**
->  Für das Verfahren wird Folgendes vorausgesetzt:>  Das Verfahren muss von einem Benutzer abgeschlossen werden, der über die **Websitebesitzer**-Berechtigungen verfügt. >  Der Workflow muss bereits auf der SharePoint Server 2013-Website veröffentlicht worden sein.
+>  Für das Verfahren wird Folgendes vorausgesetzt:
+
+
+-  Das Verfahren muss von einem Benutzer abgeschlossen werden, der über die **Websitebesitzer**-Berechtigungen verfügt.
+
+
+-  Der Workflow muss bereits auf der SharePoint Server 2013-Website veröffentlicht worden sein.
   
     
     
@@ -178,10 +184,10 @@ Damit der Workflow ordnungsgemäß funktionieren kann, muss diesem die Berechtig
   ```
 
 
-    > **VORSICHT**
-      > Im obigen **Bereichswert** befinden sich keine Platzhalter. Es handelt sich um einen Literalwert. Geben Sie ihn genau so ein, wie er hier angezeigt wird.
+> **VORSICHT**
+> Im obigen **Bereichswert** befinden sich keine Platzhalter. Es handelt sich um einen Literalwert. Geben Sie ihn genau so ein, wie er hier angezeigt wird.
 
-    Die folgende Abbildung zeigt ein Beispiel für die fertige Seite.
+Die folgende Abbildung zeigt ein Beispiel für die fertige Seite.
     
 
    **Abbildung: Nachschlagen eine App-ID**

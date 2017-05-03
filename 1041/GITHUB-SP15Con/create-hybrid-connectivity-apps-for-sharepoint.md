@@ -24,7 +24,7 @@ Business Connectivity Services (BCS) ハイブリッド接続機能により、S
     
 
 > **注意**
-> ハイブリッド SharePoint 環境を構成するには、専門的なスキルと、SharePoint Server 2013、SharePoint Online、関連する製品および技術での豊富な実務経験との両方が必要です。ハイブリッド環境の設計および展開中に技術的なガイダンスとサポートを提供する Microsoft のコンサルティング サービスのご利用をお勧めします。 > 詳細については、 [Microsoft Services](http://www.microsoft.com/en-us/microsoftservices/deploy.aspx)を参照してください。 
+> ハイブリッド SharePoint 環境を構成するには、専門的なスキルと、SharePoint Server 2013、SharePoint Online、関連する製品および技術での豊富な実務経験との両方が必要です。ハイブリッド環境の設計および展開中に技術的なガイダンスとサポートを提供する Microsoft のコンサルティング サービスのご利用をお勧めします。 <br/> 詳細については、 [Microsoft Services](http://www.microsoft.com/en-us/microsoftservices/deploy.aspx)を参照してください。 
   
     
     

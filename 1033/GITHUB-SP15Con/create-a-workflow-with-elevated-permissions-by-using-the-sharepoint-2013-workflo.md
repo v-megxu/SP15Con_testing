@@ -106,7 +106,13 @@ In order for the workflow to function properly it must be granted full control i
     
 
 > **IMPORTANT**
->  The procedure assumes the following:>  The procedure must be completed by a user that has **Site Owner** permissions.>  The workflow must already be published to the SharePoint Server 2013 site.
+>  The procedure assumes the following:
+
+
+-  The procedure must be completed by a user that has **Site Owner** permissions.
+
+
+-  The workflow must already be published to the SharePoint Server 2013 site.
   
     
     
@@ -181,10 +187,10 @@ In order for the workflow to function properly it must be granted full control i
   ```
 
 
-    > **CAUTION**
-      > There are no placeholders in the **Scope** value above. It is a literal value. Enter it exactly as it appears here.
+> **CAUTION**
+> There are no placeholders in the **Scope** value above. It is a literal value. Enter it exactly as it appears here.
 
-    The following figure shows an example of the completed page.
+The following figure shows an example of the completed page.
     
 
    **Figure: Looking up an App Id**

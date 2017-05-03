@@ -24,7 +24,7 @@ Business Connectivity Services (BCS) 混合连接功能可使 SharePoint 2013 �
     
 
 > **警告**
-> 若要配置混合 SharePoint 环境，您需要将专业技能和重要实践经验与 SharePoint Server 2013、SharePoint Online 以及相关产品和技术相结合。在设计和部署混合环境时，我们建议您通过 Microsoft 咨询服务获得技术指导和支持。 > 有关详细信息，请参阅  [Microsoft 服务](http://www.microsoft.com/zh-cn/microsoftservices/deploy.aspx)。 
+> 若要配置混合 SharePoint 环境，您需要将专业技能和重要实践经验与 SharePoint Server 2013、SharePoint Online 以及相关产品和技术相结合。在设计和部署混合环境时，我们建议您通过 Microsoft 咨询服务获得技术指导和支持。 <br/> 有关详细信息，请参阅  [Microsoft 服务](http://www.microsoft.com/zh-cn/microsoftservices/deploy.aspx)。 
   
     
     

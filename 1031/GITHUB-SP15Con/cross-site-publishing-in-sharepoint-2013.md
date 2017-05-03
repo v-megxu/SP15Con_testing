@@ -82,8 +82,8 @@ SharePoint 2013 stellt die Klassen, die Sie zur Unterstützung von Cross-Site pu
 
   ```cs
   
-/// Retrieve available catalogs.
-public static List<CatalogConnectionSettings> GetPublishingCatalogs(SPSite site, int startRow, int numberOfRows, string filterText, out int totalNumberOfCatalogs)
+  /// Retrieve available catalogs.
+  public static List<CatalogConnectionSettings> GetPublishingCatalogs(SPSite site, int startRow, int numberOfRows, string filterText, out int totalNumberOfCatalogs)
   ```
 
 
@@ -93,8 +93,8 @@ public static List<CatalogConnectionSettings> GetPublishingCatalogs(SPSite site,
 
   ```cs
   
-///Get catalog information that is saved for a list.
-public static bool GetCatalogConfiguration(SPList list, out CatalogShareSettings catalogSettings, out string selectedTaxonomyField)
+  ///Get catalog information that is saved for a list.
+  public static bool GetCatalogConfiguration(SPList list, out CatalogShareSettings catalogSettings, out string selectedTaxonomyField)
   ```
 
 
@@ -104,8 +104,8 @@ public static bool GetCatalogConfiguration(SPList list, out CatalogShareSettings
 
   ```cs
   
-///Stop sharing a list or library as a publishing catalog for cross-publishing content reuse.
-public static void UnPublishCatalog(SPList list)
+  ///Stop sharing a list or library as a publishing catalog for cross-publishing content reuse.
+  public static void UnPublishCatalog(SPList list)
   ```
 
 - Verwenden Sie die **CatalogCollectionManager** -Klasse, um Kataloge von Suche nutzen. Erfahren Sie mehr über die Verbindung, die ein Katalog suchen und Abrufen von Informationen über sie. Hinzufügen oder Entfernen eines Katalogs aus der internen Auflistung der Kataloge, und in die Warteschlange eines Vorgangs zum Einrichten einer Verbindung in die Warteschlange, der konfiguriert ist, um URLs umzuschreiben, wenn die **Update** -Methode aufgerufen wird.
@@ -116,8 +116,8 @@ public static void UnPublishCatalog(SPList list)
 
   ```cs
   
-/// Add catalog or site source into the internal CatalogInfo collection, but the source is not persisted into the property bag.
-public void AddCatalogConnection(CatalogConnectionSettings catalogInfo)
+  /// Add catalog or site source into the internal CatalogInfo collection, but the source is not persisted into the property bag.
+  public void AddCatalogConnection(CatalogConnectionSettings catalogInfo)
   ```
 
 
@@ -127,12 +127,12 @@ public void AddCatalogConnection(CatalogConnectionSettings catalogInfo)
 
   ```cs
   
-/// Queues an Add operation to add a connection configured to rewrite URLs. The connection is added to the store when the Update method is called.
-public void AddCatalogConnection(CatalogConnectionSettings catalogInfo, 
-string[] orderedPropertiesForUrlRewrite,
-string webUrl, 
-string catalogTaxonomyManagedProperty,
-bool isManualRule)
+  /// Queues an Add operation to add a connection configured to rewrite URLs. The connection is added to the store when the Update method is called.
+  public void AddCatalogConnection(CatalogConnectionSettings catalogInfo, 
+  string[] orderedPropertiesForUrlRewrite,
+  string webUrl, 
+  string catalogTaxonomyManagedProperty,
+  bool isManualRule)
   ```
 
 
@@ -142,8 +142,8 @@ bool isManualRule)
 
   ```cs
   
-/// Update existing catalog/site source in the internal CatalogInfo collection. Edits are not committed until the Update method is called.
-public void UpdateCatalogConnection(CatalogConnectionSettings catalogInfo)
+  /// Update existing catalog/site source in the internal CatalogInfo collection. Edits are not committed until the Update method is called.
+  public void UpdateCatalogConnection(CatalogConnectionSettings catalogInfo)
   ```
 
 
@@ -153,8 +153,8 @@ public void UpdateCatalogConnection(CatalogConnectionSettings catalogInfo)
 
   ```cs
   
-/// Remove a catalog or site source. Deletion is not committed until the Update method is called.
-public void DeleteCatalogConnection(string catalogPath)
+  /// Remove a catalog or site source. Deletion is not committed until the Update method is called.
+  public void DeleteCatalogConnection(string catalogPath)
   ```
 
 
@@ -164,8 +164,8 @@ public void DeleteCatalogConnection(string catalogPath)
 
   ```cs
   
-/// Determine whether a connection exists to this source from the site.
-public bool Contains(string catalogPath)
+  /// Determine whether a connection exists to this source from the site.
+  public bool Contains(string catalogPath)
   ```
 
 
@@ -175,8 +175,8 @@ public bool Contains(string catalogPath)
 
   ```cs
   
-/// Get the settings for a catalog connected to this site.
-public CatalogConnectionSettings GetCatalogConnectionSettings(string catalogPath)
+  /// Get the settings for a catalog connected to this site.
+  public CatalogConnectionSettings GetCatalogConnectionSettings(string catalogPath)
   ```
 
 

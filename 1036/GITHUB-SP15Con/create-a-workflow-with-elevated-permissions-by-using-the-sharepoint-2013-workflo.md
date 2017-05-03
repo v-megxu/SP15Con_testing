@@ -106,7 +106,13 @@ Pour que le flux de travail fonctionne correctement, l'autorisation contrôle to
     
 
 > **IMPORTANTE**
->  Les exigences suivantes doivent être remplies :>  La procédure doit être exécutée par un utilisateur qui dispose des autorisations **Propriétaire du site**. >  Le flux de travail doit déjà être publié sur le site SharePoint Server 2013.
+>  Les exigences suivantes doivent être remplies :
+
+
+-  La procédure doit être exécutée par un utilisateur qui dispose des autorisations **Propriétaire du site**.
+
+
+-  Le flux de travail doit déjà être publié sur le site SharePoint Server 2013.
   
     
     
@@ -178,10 +184,10 @@ Pour que le flux de travail fonctionne correctement, l'autorisation contrôle to
   ```
 
 
-    > **ATTENTION**
-      > Aucun espace réservé ne se trouve dans la valeur **Scope** ci-dessus. Il s'agit d'une valeur littérale. Entrez-la exactement comme elle apparaît ici.
+> **ATTENTION**
+> Aucun espace réservé ne se trouve dans la valeur **Scope** ci-dessus. Il s'agit d'une valeur littérale. Entrez-la exactement comme elle apparaît ici.
 
-    La figure suivante illustre un exemple de la page terminée.
+La figure suivante illustre un exemple de la page terminée.
     
 
    **Figure : recherche d'ID d'application**

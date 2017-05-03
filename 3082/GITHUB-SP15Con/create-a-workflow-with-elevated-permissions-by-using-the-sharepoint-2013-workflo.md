@@ -106,7 +106,13 @@ Para que el flujo de trabajo funcione correctamente, debe conceder control total
     
 
 > **IMPORTANTE**
->  El procedimiento supone lo siguiente:>  El procedimiento debe completarlo un usuario con permisos de **Propietario del sitio**. >  El flujo de trabajo ya debe estar publicado en el sitio de SharePoint Server 2013.
+>  El procedimiento supone lo siguiente:
+
+
+- El procedimiento debe completarlo un usuario con permisos de **Propietario del sitio**. 
+
+
+- El flujo de trabajo ya debe estar publicado en el sitio de SharePoint Server 2013.
   
     
     
@@ -181,10 +187,10 @@ Para que el flujo de trabajo funcione correctamente, debe conceder control total
   ```
 
 
-    > **PRECAUCIóN**
-      > En el valor **Ámbito** anterior no hay marcadores de posición. Es un valor literal. Escríbalo exactamente como aparece aquí.
+> **PRECAUCIóN**
+> En el valor **Ámbito** anterior no hay marcadores de posición. Es un valor literal. Escríbalo exactamente como aparece aquí.
 
-    La figura siguiente muestra un ejemplo de la página completada.
+La figura siguiente muestra un ejemplo de la página completada.
     
 
    **Figura: Búsqueda de un identificador de la aplicación**
