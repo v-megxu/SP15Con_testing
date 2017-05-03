@@ -60,7 +60,7 @@ http://<ServerName>/_vti_bin/ExcelRest.aspx/<DocumentLibrary>/<FileName>/<Resour
 http://<ServerName>/_vti_bin/ExcelRest.aspx/Docs/Documents/sampleWorkbook.xlsx/model/Charts('SampleChart')
 ```
 
-工作簿存储在文档库中。工作簿的完整路径为  `http://` _<ServerName>_ `/Docs/Documents/sampleWorkbook.xlsx`。
+工作簿存储在文档库中。工作簿的完整路径为  `http://` _\<ServerName\>_ `/Docs/Documents/sampleWorkbook.xlsx`。
   
     
     
